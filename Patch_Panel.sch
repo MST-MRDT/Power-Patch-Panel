@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -154,16 +154,6 @@
 <text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MLX-2-PIN">
-<pad name="P$1" x="-2.54" y="0" drill="2"/>
-<pad name="P$2" x="3.81" y="0" drill="2"/>
-<wire x1="-6.35" y1="3.81" x2="-6.35" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-3.81" x2="7.62" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-3.81" x2="7.62" y2="3.81" width="0.127" layer="21"/>
-<wire x1="7.62" y1="3.81" x2="-6.35" y2="3.81" width="0.127" layer="21"/>
-<text x="-2.54" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-5.715" size="1.27" layer="25">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="MLX-3-PIN">
@@ -174,16 +164,6 @@
 <pin name="5V" x="-7.62" y="0" length="middle"/>
 <pin name="GND" x="-7.62" y="-2.54" length="middle"/>
 <pin name="12V" x="-7.62" y="2.54" length="middle"/>
-<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="MLX-2-PIN">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="V_PACK" x="-7.62" y="2.54" length="middle"/>
-<pin name="GND" x="-7.62" y="-2.54" length="middle"/>
 <text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
@@ -199,22 +179,6 @@
 <connect gate="G$1" pin="12V" pad="P$2"/>
 <connect gate="G$1" pin="5V" pad="P$1"/>
 <connect gate="G$1" pin="GND" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MLX-2-PIN">
-<gates>
-<gate name="G$1" symbol="MLX-2-PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MLX-2-PIN">
-<connects>
-<connect gate="G$1" pin="GND" pad="P$1"/>
-<connect gate="G$1" pin="V_PACK" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -294,80 +258,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="RJ45-8">
-<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
-<pad name="8" x="4.445" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="7" x="3.175" y="6.35" drill="1" diameter="1.8796"/>
-<pad name="6" x="1.905" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="4" x="-0.635" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="2" x="-3.175" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="5" x="0.635" y="6.35" drill="1" diameter="1.8796"/>
-<pad name="3" x="-1.905" y="6.35" drill="1" diameter="1.8796"/>
-<pad name="1" x="-4.445" y="6.35" drill="1" diameter="1.8796" shape="square"/>
-<hole x="-5.715" y="0" drill="3.2"/>
-<hole x="5.715" y="0" drill="3.2"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RJ45-8">
-<wire x1="-7.62" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="13.208" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="95">&gt;Value</text>
-<pin name="1" x="-12.7" y="10.16" visible="pin" length="middle"/>
-<pin name="2" x="-12.7" y="7.62" visible="pin" length="middle"/>
-<pin name="3" x="-12.7" y="5.08" visible="pin" length="middle"/>
-<pin name="4" x="-12.7" y="2.54" visible="pin" length="middle"/>
-<pin name="8" x="-12.7" y="-7.62" visible="pin" length="middle"/>
-<pin name="7" x="-12.7" y="-5.08" visible="pin" length="middle"/>
-<pin name="6" x="-12.7" y="-2.54" visible="pin" length="middle"/>
-<pin name="5" x="-12.7" y="0" visible="pin" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ45-8">
-<description>&lt;b&gt;RJ45 Jack&lt;/b&gt;
-Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ethernet cables. Footprint not yet proven in production. Connector sku is PRT-00643; Breakout PCB sku is BOB-00716.</description>
-<gates>
-<gate name="G$1" symbol="RJ45-8" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="RJ45-8">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -411,18 +301,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$25" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="U$26" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="U$27" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="U$28" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="U$29" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="U$30" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="U$31" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="U$32" library="MRDT-2015-General" deviceset="MLX-2-PIN" device=""/>
-<part name="V_PACK" library="SparkFun-Aesthetics" deviceset="12V" device="" value="V_PACK"/>
-<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$33" library="SparkFun-Connectors" deviceset="RJ45-8" device="PTH"/>
-<part name="U$34" library="SparkFun-Connectors" deviceset="RJ45-8" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -462,18 +340,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <instance part="SUPPLY5" gate="G$1" x="40.64" y="149.86"/>
 <instance part="SUPPLY6" gate="G$1" x="33.02" y="149.86"/>
 <instance part="GND3" gate="1" x="50.8" y="12.7"/>
-<instance part="U$25" gate="G$1" x="-68.58" y="144.78"/>
-<instance part="U$26" gate="G$1" x="-68.58" y="127"/>
-<instance part="U$27" gate="G$1" x="-68.58" y="109.22"/>
-<instance part="U$28" gate="G$1" x="-68.58" y="91.44"/>
-<instance part="U$29" gate="G$1" x="-68.58" y="73.66"/>
-<instance part="U$30" gate="G$1" x="-68.58" y="55.88"/>
-<instance part="U$31" gate="G$1" x="-68.58" y="38.1"/>
-<instance part="U$32" gate="G$1" x="-68.58" y="20.32"/>
-<instance part="V_PACK" gate="G$1" x="-91.44" y="149.86"/>
-<instance part="GND4" gate="1" x="-83.82" y="12.7"/>
-<instance part="U$33" gate="G$1" x="-101.6" y="78.74"/>
-<instance part="U$34" gate="G$1" x="-134.62" y="78.74" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -643,33 +509,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <pinref part="U$13" gate="G$1" pin="12V"/>
 <wire x1="55.88" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U$32" gate="G$1" pin="V_PACK"/>
-<pinref part="V_PACK" gate="G$1" pin="12V"/>
-<wire x1="-76.2" y1="22.86" x2="-91.44" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="22.86" x2="-91.44" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$25" gate="G$1" pin="V_PACK"/>
-<wire x1="-91.44" y1="40.64" x2="-91.44" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="58.42" x2="-91.44" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="76.2" x2="-91.44" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="93.98" x2="-91.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="111.76" x2="-91.44" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="129.54" x2="-91.44" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="147.32" x2="-91.44" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="147.32" x2="-91.44" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$26" gate="G$1" pin="V_PACK"/>
-<wire x1="-76.2" y1="129.54" x2="-91.44" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$27" gate="G$1" pin="V_PACK"/>
-<wire x1="-76.2" y1="111.76" x2="-91.44" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$28" gate="G$1" pin="V_PACK"/>
-<wire x1="-76.2" y1="93.98" x2="-91.44" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$29" gate="G$1" pin="V_PACK"/>
-<wire x1="-76.2" y1="76.2" x2="-91.44" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$30" gate="G$1" pin="V_PACK"/>
-<wire x1="-76.2" y1="58.42" x2="-91.44" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$31" gate="G$1" pin="V_PACK"/>
-<wire x1="-76.2" y1="40.64" x2="-91.44" y2="40.64" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -752,89 +591,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <wire x1="55.88" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="GND"/>
 <wire x1="55.88" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$25" gate="G$1" pin="GND"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-76.2" y1="142.24" x2="-83.82" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="142.24" x2="-83.82" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$26" gate="G$1" pin="GND"/>
-<wire x1="-83.82" y1="124.46" x2="-83.82" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="106.68" x2="-83.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="88.9" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="71.12" x2="-83.82" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="53.34" x2="-83.82" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="35.56" x2="-83.82" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="17.78" x2="-83.82" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="124.46" x2="-83.82" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$27" gate="G$1" pin="GND"/>
-<wire x1="-76.2" y1="106.68" x2="-83.82" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$28" gate="G$1" pin="GND"/>
-<wire x1="-76.2" y1="88.9" x2="-83.82" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$29" gate="G$1" pin="GND"/>
-<wire x1="-76.2" y1="71.12" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$30" gate="G$1" pin="GND"/>
-<wire x1="-76.2" y1="53.34" x2="-83.82" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$31" gate="G$1" pin="GND"/>
-<wire x1="-76.2" y1="35.56" x2="-83.82" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U$32" gate="G$1" pin="GND"/>
-<wire x1="-76.2" y1="17.78" x2="-83.82" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="1"/>
-<pinref part="U$33" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="88.9" x2="-114.3" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="2"/>
-<pinref part="U$33" gate="G$1" pin="2"/>
-<wire x1="-121.92" y1="86.36" x2="-114.3" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="3"/>
-<pinref part="U$33" gate="G$1" pin="3"/>
-<wire x1="-121.92" y1="83.82" x2="-114.3" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="4"/>
-<pinref part="U$33" gate="G$1" pin="4"/>
-<wire x1="-121.92" y1="81.28" x2="-114.3" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="5"/>
-<pinref part="U$33" gate="G$1" pin="5"/>
-<wire x1="-121.92" y1="78.74" x2="-114.3" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="6"/>
-<pinref part="U$33" gate="G$1" pin="6"/>
-<wire x1="-121.92" y1="76.2" x2="-114.3" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="7"/>
-<pinref part="U$33" gate="G$1" pin="7"/>
-<wire x1="-121.92" y1="73.66" x2="-114.3" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$34" gate="G$1" pin="8"/>
-<pinref part="U$33" gate="G$1" pin="8"/>
-<wire x1="-121.92" y1="71.12" x2="-114.3" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
