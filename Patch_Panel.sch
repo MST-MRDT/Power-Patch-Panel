@@ -706,6 +706,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <dimension x1="0" y1="0" x2="15.875" y2="0" x3="7.9375" y3="-5.08" textsize="1.27" layer="47" unit="inch" precision="4" visible="yes"/>
 <dimension x1="15.875" y1="0" x2="15.875" y2="17.399" x3="21.59" y3="8.6995" textsize="1.27" layer="47" unit="inch" precision="4" visible="yes"/>
 </package>
+<package name="MRDT_MALE_RJ45_STANDOFF">
+<wire x1="0" y1="0" x2="24.13" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="15.24" x2="24.13" y2="15.24" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="51" curve="-180"/>
+<wire x1="24.13" y1="0" x2="24.13" y2="15.24" width="0.127" layer="51" curve="180"/>
+<dimension x1="0" y1="7.62" x2="-7.228959375" y2="10.029653125" x3="-14.6286875" y3="12.496228125" textsize="1.27" layer="47" dtype="radius" unit="inch" precision="4" visible="yes"/>
+<dimension x1="0" y1="0" x2="24.13" y2="0" x3="12.065" y3="-6.35" textsize="1.27" layer="47" unit="inch" precision="4" visible="yes"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="15.24" width="0.127" layer="47"/>
+<wire x1="21.59" y1="15.24" x2="21.59" y2="0" width="0.127" layer="47"/>
+<hole x="-2.54" y="7.62" drill="4.318"/>
+<hole x="26.67" y="7.62" drill="4.318"/>
+<wire x1="5.715" y1="15.24" x2="5.715" y2="2.54" width="0.127" layer="20"/>
+<wire x1="5.715" y1="2.54" x2="18.415" y2="2.54" width="0.127" layer="20"/>
+<wire x1="18.415" y1="2.54" x2="18.415" y2="15.24" width="0.127" layer="20"/>
+<wire x1="18.415" y1="15.24" x2="5.715" y2="15.24" width="0.127" layer="20"/>
+<dimension x1="5.715" y1="2.54" x2="18.415" y2="2.54" x3="12.065" y3="17.78" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4" visible="yes"/>
+<dimension x1="26.67" y1="9.779" x2="26.67" y2="5.461" x3="35.56" y3="7.62" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
+<dimension x1="24.13" y1="7.62" x2="26.67" y2="7.62" x3="25.4" y3="-6.35" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="13.97" width="0.127" layer="49" style="shortdash"/>
+<wire x1="10.16" y1="13.97" x2="13.97" y2="13.97" width="0.127" layer="49" style="shortdash"/>
+<wire x1="13.97" y1="13.97" x2="13.97" y2="15.24" width="0.127" layer="49" style="shortdash"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ANDERSON_POWERPOLE">
@@ -849,6 +871,11 @@ WING
 </technology>
 </technologies>
 </device>
+<device name="MRDT_MALE_RJ45_STANDOFF" package="MRDT_MALE_RJ45_STANDOFF">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -959,7 +986,7 @@ WING
 <part name="U$43" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="VERT"/>
 <part name="U$44" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="VERT"/>
 <part name="U$45" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="VERT"/>
-<part name="U$46" library="MRDT-Connectors" deviceset="RJ45_PASSTHRU" device="STEWART-SS82000002"/>
+<part name="U$46" library="MRDT-Connectors" deviceset="RJ45_PASSTHRU" device="MRDT_MALE_RJ45_STANDOFF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1102,7 +1129,7 @@ WING
 <instance part="U$43" gate="G$1" x="104.14" y="35.56"/>
 <instance part="U$44" gate="G$1" x="116.84" y="35.56"/>
 <instance part="U$45" gate="G$1" x="91.44" y="27.94"/>
-<instance part="U$46" gate="G$1" x="91.44" y="12.7"/>
+<instance part="U$46" gate="G$1" x="91.44" y="17.78"/>
 </instances>
 <busses>
 </busses>

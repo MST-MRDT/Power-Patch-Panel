@@ -484,35 +484,27 @@
 <wire x1="0" y1="7.874" x2="0" y2="0" width="0.127" layer="49" style="shortdash"/>
 <dimension x1="7.366" y1="3.937" x2="0.508" y2="3.937" x3="0.508" y3="3.937" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
 </package>
-<package name="RJ45_PT_STEWART-SS82000002">
-<wire x1="1.0922" y1="0" x2="14.7828" y2="0" width="0.127" layer="51"/>
-<wire x1="14.7828" y1="0" x2="14.7828" y2="17.399" width="0.127" layer="51"/>
-<wire x1="14.7828" y1="17.399" x2="1.0922" y2="17.399" width="0.127" layer="51"/>
-<wire x1="1.0922" y1="17.399" x2="1.0922" y2="0" width="0.127" layer="51"/>
-<wire x1="1.0922" y1="11.1506" x2="-0.4445" y2="11.1506" width="0.127" layer="49" style="shortdash"/>
-<wire x1="-0.4445" y1="11.1506" x2="-0.4445" y2="7.8486" width="0.127" layer="49" style="shortdash"/>
-<wire x1="-0.4445" y1="7.8486" x2="1.0922" y2="7.8486" width="0.127" layer="49" style="shortdash"/>
-<wire x1="1.0922" y1="0" x2="1.0922" y2="-1.1176" width="0.127" layer="49" style="shortdash"/>
-<wire x1="1.0922" y1="-1.1176" x2="3.048" y2="-1.1176" width="0.127" layer="49" style="shortdash"/>
-<wire x1="3.048" y1="-1.1176" x2="3.048" y2="0" width="0.127" layer="49" style="shortdash"/>
-<wire x1="12.827" y1="0" x2="12.827" y2="-1.1176" width="0.127" layer="49" style="shortdash"/>
-<wire x1="12.827" y1="-1.1176" x2="14.7828" y2="-1.1176" width="0.127" layer="49" style="shortdash"/>
-<wire x1="14.7828" y1="-1.1176" x2="14.7828" y2="0" width="0.127" layer="49" style="shortdash"/>
-<wire x1="0" y1="0" x2="15.875" y2="0" width="0.127" layer="20"/>
-<wire x1="15.875" y1="0" x2="15.875" y2="17.399" width="0.127" layer="20"/>
-<wire x1="15.875" y1="17.399" x2="0" y2="17.399" width="0.127" layer="20"/>
-<wire x1="0" y1="17.399" x2="0" y2="0" width="0.127" layer="20"/>
-<wire x1="14.7828" y1="7.8486" x2="16.3195" y2="7.8486" width="0.127" layer="49" style="shortdash"/>
-<wire x1="16.3195" y1="7.8486" x2="16.3195" y2="11.1506" width="0.127" layer="49" style="shortdash"/>
-<wire x1="16.3195" y1="11.1506" x2="14.7828" y2="11.1506" width="0.127" layer="49" style="shortdash"/>
-<wire x1="14.7828" y1="17.399" x2="14.7828" y2="18.5166" width="0.127" layer="49" style="shortdash"/>
-<wire x1="14.7828" y1="18.5166" x2="12.827" y2="18.5166" width="0.127" layer="49" style="shortdash"/>
-<wire x1="12.827" y1="18.5166" x2="12.827" y2="17.399" width="0.127" layer="49" style="shortdash"/>
-<wire x1="3.048" y1="17.399" x2="3.048" y2="18.5166" width="0.127" layer="49" style="shortdash"/>
-<wire x1="3.048" y1="18.5166" x2="1.0922" y2="18.5166" width="0.127" layer="49" style="shortdash"/>
-<wire x1="1.0922" y1="18.5166" x2="1.0922" y2="17.399" width="0.127" layer="49" style="shortdash"/>
-<dimension x1="0" y1="0" x2="15.875" y2="0" x3="7.9375" y3="-5.08" textsize="1.27" layer="47" unit="inch" precision="4" visible="yes"/>
-<dimension x1="15.875" y1="0" x2="15.875" y2="17.399" x3="21.59" y3="8.6995" textsize="1.27" layer="47" unit="inch" precision="4" visible="yes"/>
+<package name="MRDT_MALE_RJ45_STANDOFF">
+<wire x1="0" y1="0" x2="24.13" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="15.24" x2="24.13" y2="15.24" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.127" layer="51" curve="-180"/>
+<wire x1="24.13" y1="0" x2="24.13" y2="15.24" width="0.127" layer="51" curve="180"/>
+<dimension x1="0" y1="7.62" x2="-7.228959375" y2="10.029653125" x3="-14.6286875" y3="12.496228125" textsize="1.27" layer="47" dtype="radius" unit="inch" precision="4" visible="yes"/>
+<dimension x1="0" y1="0" x2="24.13" y2="0" x3="12.065" y3="-6.35" textsize="1.27" layer="47" unit="inch" precision="4" visible="yes"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="15.24" width="0.127" layer="47"/>
+<wire x1="21.59" y1="15.24" x2="21.59" y2="0" width="0.127" layer="47"/>
+<hole x="-2.54" y="7.62" drill="4.318"/>
+<hole x="26.67" y="7.62" drill="4.318"/>
+<wire x1="5.715" y1="15.24" x2="5.715" y2="2.54" width="0.127" layer="20"/>
+<wire x1="5.715" y1="2.54" x2="18.415" y2="2.54" width="0.127" layer="20"/>
+<wire x1="18.415" y1="2.54" x2="18.415" y2="15.24" width="0.127" layer="20"/>
+<wire x1="18.415" y1="15.24" x2="5.715" y2="15.24" width="0.127" layer="20"/>
+<dimension x1="5.715" y1="2.54" x2="18.415" y2="2.54" x3="12.065" y3="17.78" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4" visible="yes"/>
+<dimension x1="26.67" y1="9.779" x2="26.67" y2="5.461" x3="35.56" y3="7.62" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
+<dimension x1="24.13" y1="7.62" x2="26.67" y2="7.62" x3="25.4" y3="-6.35" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="13.97" width="0.127" layer="49" style="shortdash"/>
+<wire x1="10.16" y1="13.97" x2="13.97" y2="13.97" width="0.127" layer="49" style="shortdash"/>
+<wire x1="13.97" y1="13.97" x2="13.97" y2="15.24" width="0.127" layer="49" style="shortdash"/>
 </package>
 </packages>
 </library>
@@ -945,10 +937,7 @@ design rules under a new name.</description>
 <element name="U$45" library="MRDT-Connectors" package="APP45_MOUNTING_WING_VERT" value="APP_MOUTING_WINGVERT" x="19.304" y="139.446" rot="MR90">
 <attribute name="COLOR1" value="" x="19.304" y="139.446" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="U$46" library="MRDT-Connectors" package="RJ45_PT_STEWART-SS82000002" value="RJ45_PASSTHRUSTEWART-SS82000002" x="10.16" y="184.658">
-<attribute name="MFR" value="Stewart Connectors" x="10.16" y="184.658" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_PN" value="SS-82000-002" x="10.16" y="184.658" size="1.778" layer="27" display="off"/>
-</element>
+<element name="U$46" library="MRDT-Connectors" package="MRDT_MALE_RJ45_STANDOFF" value="RJ45_PASSTHRUMRDT_MALE_RJ45_STANDOFF" x="10.414" y="212.598" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
