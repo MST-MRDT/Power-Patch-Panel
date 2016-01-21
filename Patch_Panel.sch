@@ -715,18 +715,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <dimension x1="0" y1="0" x2="24.13" y2="0" x3="12.065" y3="-6.35" textsize="1.27" layer="47" unit="inch" precision="4" visible="yes"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="15.24" width="0.127" layer="47"/>
 <wire x1="21.59" y1="15.24" x2="21.59" y2="0" width="0.127" layer="47"/>
-<hole x="-2.54" y="7.62" drill="4.318"/>
-<hole x="26.67" y="7.62" drill="4.318"/>
-<wire x1="5.715" y1="15.24" x2="5.715" y2="2.54" width="0.127" layer="20"/>
-<wire x1="5.715" y1="2.54" x2="18.415" y2="2.54" width="0.127" layer="20"/>
-<wire x1="18.415" y1="2.54" x2="18.415" y2="15.24" width="0.127" layer="20"/>
-<wire x1="18.415" y1="15.24" x2="5.715" y2="15.24" width="0.127" layer="20"/>
-<dimension x1="5.715" y1="2.54" x2="18.415" y2="2.54" x3="12.065" y3="17.78" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4" visible="yes"/>
+<wire x1="4.445" y1="15.24" x2="4.445" y2="1.27" width="0.127" layer="20"/>
+<wire x1="4.445" y1="1.27" x2="19.685" y2="1.27" width="0.127" layer="20"/>
+<wire x1="19.685" y1="1.27" x2="19.685" y2="15.24" width="0.127" layer="20"/>
+<wire x1="19.685" y1="15.24" x2="4.445" y2="15.24" width="0.127" layer="20"/>
 <dimension x1="26.67" y1="9.779" x2="26.67" y2="5.461" x3="35.56" y3="7.62" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
 <dimension x1="24.13" y1="7.62" x2="26.67" y2="7.62" x3="25.4" y3="-6.35" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="13.97" width="0.127" layer="49" style="shortdash"/>
-<wire x1="10.16" y1="13.97" x2="13.97" y2="13.97" width="0.127" layer="49" style="shortdash"/>
-<wire x1="13.97" y1="13.97" x2="13.97" y2="15.24" width="0.127" layer="49" style="shortdash"/>
+<wire x1="18.0975" y1="3.175" x2="6.0325" y2="3.175" width="0.127" layer="49" style="shortdash"/>
+<wire x1="6.0325" y1="3.175" x2="6.0325" y2="12.065" width="0.127" layer="49" style="shortdash"/>
+<wire x1="18.0975" y1="3.175" x2="18.0975" y2="12.065" width="0.127" layer="49" style="shortdash"/>
+<wire x1="18.0975" y1="12.065" x2="15.494" y2="12.065" width="0.127" layer="49" style="shortdash"/>
+<wire x1="8.636" y1="12.065" x2="6.0325" y2="12.065" width="0.127" layer="49" style="shortdash"/>
+<wire x1="8.636" y1="12.065" x2="8.636" y2="13.589" width="0.127" layer="49" style="shortdash"/>
+<wire x1="8.636" y1="13.589" x2="15.494" y2="13.589" width="0.127" layer="49" style="shortdash"/>
+<wire x1="15.494" y1="13.589" x2="15.494" y2="12.065" width="0.127" layer="49" style="shortdash"/>
+<dimension x1="2.54" y1="15.24" x2="21.59" y2="12.7" x3="12.065" y3="22.86" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4" visible="yes"/>
+<dimension x1="19.685" y1="15.24" x2="4.445" y2="15.24" x3="12.065" y3="19.05" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4" visible="yes"/>
+<dimension x1="19.685" y1="1.27" x2="19.685" y2="15.24" x3="41.91" y3="8.255" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4" visible="yes"/>
+<circle x="-2.54" y="7.62" radius="2.159" width="0.127" layer="45"/>
+<polygon width="0.127" layer="45">
+<vertex x="-2.54" y="7.62"/>
+<vertex x="-2.54" y="9.779" curve="-90"/>
+<vertex x="-0.381" y="7.62"/>
+</polygon>
+<polygon width="0.127" layer="45">
+<vertex x="-2.54" y="7.62"/>
+<vertex x="-2.54" y="5.461" curve="-90"/>
+<vertex x="-4.699" y="7.62"/>
+</polygon>
+<circle x="26.67" y="7.62" radius="2.159" width="0.127" layer="45"/>
+<polygon width="0.127" layer="45">
+<vertex x="26.67" y="7.62"/>
+<vertex x="26.67" y="9.779" curve="-90"/>
+<vertex x="28.829" y="7.62"/>
+</polygon>
+<polygon width="0.127" layer="45">
+<vertex x="26.67" y="7.62"/>
+<vertex x="26.67" y="5.461" curve="-90"/>
+<vertex x="24.511" y="7.62"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -880,6 +907,42 @@ WING
 </deviceset>
 </devicesets>
 </library>
+<library name="MRDT-Hardware">
+<packages>
+<package name="#8_SCREW">
+<hole x="0" y="0" drill="4.318"/>
+<circle x="0" y="0" radius="3.429" width="0.127" layer="51"/>
+<wire x1="2.0828" y1="0" x2="0" y2="2.0828" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="0" y1="2.0828" x2="-2.0828" y2="0" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="-2.0828" y1="0" x2="0" y2="-2.0828" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="0" y1="-2.0828" x2="2.0828" y2="0" width="0.127" layer="49" style="shortdash" curve="90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOUNTING_HOLES">
+<text x="5.08" y="2.54" size="1.27" layer="94" align="center">MOUNTING
+HOLE</text>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.254" layer="94" style="shortdash"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNTING_HOLE">
+<gates>
+<gate name="G$1" symbol="MOUNTING_HOLES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="#8" package="#8_SCREW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -987,6 +1050,18 @@ WING
 <part name="U$44" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="VERT"/>
 <part name="U$45" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="VERT"/>
 <part name="U$46" library="MRDT-Connectors" deviceset="RJ45_PASSTHRU" device="MRDT_MALE_RJ45_STANDOFF"/>
+<part name="U$48" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$49" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$50" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$52" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$53" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$54" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$55" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$56" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$58" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$59" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$57" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
+<part name="U$61" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#8"/>
 </parts>
 <sheets>
 <sheet>
@@ -1129,7 +1204,19 @@ WING
 <instance part="U$43" gate="G$1" x="104.14" y="35.56"/>
 <instance part="U$44" gate="G$1" x="116.84" y="35.56"/>
 <instance part="U$45" gate="G$1" x="91.44" y="27.94"/>
-<instance part="U$46" gate="G$1" x="91.44" y="17.78"/>
+<instance part="U$46" gate="G$1" x="91.44" y="12.7"/>
+<instance part="U$48" gate="G$1" x="137.16" y="73.66"/>
+<instance part="U$49" gate="G$1" x="137.16" y="66.04"/>
+<instance part="U$50" gate="G$1" x="149.86" y="81.28"/>
+<instance part="U$52" gate="G$1" x="149.86" y="66.04"/>
+<instance part="U$53" gate="G$1" x="137.16" y="58.42"/>
+<instance part="U$54" gate="G$1" x="162.56" y="66.04"/>
+<instance part="U$55" gate="G$1" x="162.56" y="81.28"/>
+<instance part="U$56" gate="G$1" x="149.86" y="73.66"/>
+<instance part="U$58" gate="G$1" x="137.16" y="81.28"/>
+<instance part="U$59" gate="G$1" x="149.86" y="58.42"/>
+<instance part="U$57" gate="G$1" x="162.56" y="73.66"/>
+<instance part="U$61" gate="G$1" x="91.44" y="5.08"/>
 </instances>
 <busses>
 </busses>
