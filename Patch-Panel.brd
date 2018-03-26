@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -221,9 +221,6 @@ Patch Panel Rev. 3
 <dimension x1="84.9122" y1="2.54" x2="29.21" y2="3.6068" x3="57.0611" y3="-20.4978" textsize="1.778" layer="47" dtype="horizontal" unit="mil"/>
 <dimension x1="35.56" y1="24.13" x2="16.7894" y2="0" x3="-8.763" y3="12.065" textsize="1.778" layer="47" dtype="vertical" unit="mil"/>
 <wire x1="32.258" y1="120.142" x2="32.258" y2="112.014" width="0.254" layer="21"/>
-<dimension x1="82.3722" y1="0" x2="72.898" y2="9.906" x3="93.218" y3="4.953" textsize="1.4224" layer="21" dtype="vertical" unit="mil"/>
-<dimension x1="84.9122" y1="2.54" x2="72.7202" y2="10.9474" x3="78.8162" y3="-9.525" textsize="1.4224" layer="21" dtype="horizontal" unit="mil"/>
-<dimension x1="84.9122" y1="2.54" x2="72.7202" y2="10.414" x3="78.8162" y3="63.5254" textsize="1.4224" layer="21" dtype="horizontal" unit="mil"/>
 <dimension x1="82.3722" y1="0" x2="72.7202" y2="107.442" x3="112.903" y3="53.721" textsize="1.4224" layer="47" dtype="vertical" unit="mil"/>
 <dimension x1="82.3722" y1="0" x2="72.7202" y2="54.356" x3="98.1202" y3="27.178" textsize="1.4224" layer="47" dtype="vertical" unit="mil"/>
 </plain>
