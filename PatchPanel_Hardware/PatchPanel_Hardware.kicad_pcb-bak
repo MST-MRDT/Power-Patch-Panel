@@ -108,9 +108,9 @@
     (add_net GND)
   )
 
-  (module PowerBoard_Hardware:Drill_Hole_632 (layer F.Cu) (tedit 5BFB2FC6) (tstamp 5C2A8343)
+  (module PowerBoard_Hardware:Drill_Hole_632 (layer F.Cu) (tedit 5C11B20A) (tstamp 5C2A8343)
     (at 279.654 83.82)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Drill_Hole_632 (at 0 -0.5) (layer F.Fab)
@@ -120,9 +120,9 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.683 3.683) (drill 3.683) (layers *.Cu *.Mask))
   )
 
-  (module PowerBoard_Hardware:Drill_Hole_632 (layer F.Cu) (tedit 5BFB2FC6) (tstamp 5C2A8339)
+  (module PowerBoard_Hardware:Drill_Hole_632 (layer F.Cu) (tedit 5C11B212) (tstamp 5C2A8339)
     (at 177.8 83.82)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Drill_Hole_632 (at 0 -0.5) (layer F.Fab)
@@ -132,9 +132,9 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.683 3.683) (drill 3.683) (layers *.Cu *.Mask))
   )
 
-  (module PowerBoard_Hardware:Drill_Hole_632 (layer F.Cu) (tedit 5BFB2FC6) (tstamp 5C2A832F)
+  (module PowerBoard_Hardware:Drill_Hole_632 (layer F.Cu) (tedit 5C11B219) (tstamp 5C2A832F)
     (at 138.43 17.145)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Drill_Hole_632 (at 0 -0.5) (layer F.Fab)
