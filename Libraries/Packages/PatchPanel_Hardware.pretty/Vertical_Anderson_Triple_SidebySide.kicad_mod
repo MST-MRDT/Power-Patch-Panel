@@ -1,8 +1,8 @@
-(module Vertical_Anderson_Triple_SidebySide (layer F.Cu) (tedit 5C0B0CC0)
-  (fp_text reference REF** (at 21.8 2) (layer F.SilkS)
+(module Vertical_Anderson_Triple_SidebySide (layer F.Cu) (tedit 5C130EE1)
+  (fp_text reference Conn10 (at 21.3 1.6) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Vertical_Anderson_Triple_Side-by-Side (at 11.9 -9.3 180) (layer F.Fab) hide
+  (fp_text value AndersonPP (at 11.9 -9.3 180) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 7.9 0) (end 0 0) (layer F.SilkS) (width 0.15))

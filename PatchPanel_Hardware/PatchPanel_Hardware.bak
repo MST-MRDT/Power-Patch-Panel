@@ -418,12 +418,12 @@ $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5C0B8CC4
-P 3150 4250
-F 0 "#PWR08" H 3150 4000 50  0001 C CNN
-F 1 "GND" H 3155 4077 50  0000 C CNN
-F 2 "" H 3150 4250 50  0001 C CNN
-F 3 "" H 3150 4250 50  0001 C CNN
-	1    3150 4250
+P 3150 5350
+F 0 "#PWR08" H 3150 5100 50  0001 C CNN
+F 1 "GND" H 3155 5177 50  0000 C CNN
+F 2 "" H 3150 5350 50  0001 C CNN
+F 3 "" H 3150 5350 50  0001 C CNN
+	1    3150 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -853,7 +853,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 1900 3150 3000
 Connection ~ 3550 1900
-Connection ~ 3150 3000
 Wire Wire Line
 	2850 1500 2850 1600
 Wire Wire Line
@@ -877,181 +876,179 @@ Wire Wire Line
 $Comp
 L MRDT_Connectors:AndersonPP Conn18
 U 1 1 5C0D71D0
-P 3450 3300
-F 0 "Conn18" V 3400 3100 60  0000 L CNN
-F 1 "AndersonPP" V 3709 3528 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3300 2750 60  0001 C CNN
-F 3 "" H 3300 2750 60  0001 C CNN
-	1    3450 3300
+P 3450 4400
+F 0 "Conn18" V 3400 4200 60  0000 L CNN
+F 1 "AndersonPP" V 3709 4628 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 3300 3850 60  0001 C CNN
+F 3 "" H 3300 3850 60  0001 C CNN
+	1    3450 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn18
 U 2 1 5C0D71DC
-P 3750 3300
-F 0 "Conn18" V 3700 3300 60  0000 L CNN
-F 1 "AndersonPP" V 3950 3800 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3600 2750 60  0001 C CNN
-F 3 "" H 3600 2750 60  0001 C CNN
-	2    3750 3300
+P 3750 4400
+F 0 "Conn18" V 3700 4400 60  0000 L CNN
+F 1 "AndersonPP" V 3950 4900 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 3600 3850 60  0001 C CNN
+F 3 "" H 3600 3850 60  0001 C CNN
+	2    3750 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn19
 U 1 1 5C0D71E2
-P 4550 3300
-F 0 "Conn19" V 4500 3100 60  0000 L CNN
-F 1 "AndersonPP" V 4809 3528 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4400 2750 60  0001 C CNN
-F 3 "" H 4400 2750 60  0001 C CNN
-	1    4550 3300
+P 4550 4400
+F 0 "Conn19" V 4500 4200 60  0000 L CNN
+F 1 "AndersonPP" V 4809 4628 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 4400 3850 60  0001 C CNN
+F 3 "" H 4400 3850 60  0001 C CNN
+	1    4550 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn19
 U 2 1 5C0D71EE
-P 4850 3300
-F 0 "Conn19" V 4800 3300 60  0000 L CNN
-F 1 "AndersonPP" V 5050 3800 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4700 2750 60  0001 C CNN
-F 3 "" H 4700 2750 60  0001 C CNN
-	2    4850 3300
+P 4850 4400
+F 0 "Conn19" V 4800 4400 60  0000 L CNN
+F 1 "AndersonPP" V 5050 4900 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 4700 3850 60  0001 C CNN
+F 3 "" H 4700 3850 60  0001 C CNN
+	2    4850 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn20
 U 1 1 5C0D71F4
-P 5650 3300
-F 0 "Conn20" V 5600 3100 60  0000 L CNN
-F 1 "AndersonPP" V 5909 3528 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5500 2750 60  0001 C CNN
-F 3 "" H 5500 2750 60  0001 C CNN
-	1    5650 3300
+P 5650 4400
+F 0 "Conn20" V 5600 4200 60  0000 L CNN
+F 1 "AndersonPP" V 5909 4628 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 5500 3850 60  0001 C CNN
+F 3 "" H 5500 3850 60  0001 C CNN
+	1    5650 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn20
 U 2 1 5C0D7200
-P 5950 3300
-F 0 "Conn20" V 5900 3300 60  0000 L CNN
-F 1 "AndersonPP" V 6150 3800 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5800 2750 60  0001 C CNN
-F 3 "" H 5800 2750 60  0001 C CNN
-	2    5950 3300
+P 5950 4400
+F 0 "Conn20" V 5900 4400 60  0000 L CNN
+F 1 "AndersonPP" V 6150 4900 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 5800 3850 60  0001 C CNN
+F 3 "" H 5800 3850 60  0001 C CNN
+	2    5950 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn21
 U 1 1 5C0D7206
-P 6750 3300
-F 0 "Conn21" V 6700 3100 60  0000 L CNN
-F 1 "AndersonPP" V 7009 3528 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6600 2750 60  0001 C CNN
-F 3 "" H 6600 2750 60  0001 C CNN
-	1    6750 3300
+P 6750 4400
+F 0 "Conn21" V 6700 4200 60  0000 L CNN
+F 1 "AndersonPP" V 7009 4628 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 6600 3850 60  0001 C CNN
+F 3 "" H 6600 3850 60  0001 C CNN
+	1    6750 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn21
 U 2 1 5C0D7212
-P 7050 3300
-F 0 "Conn21" V 7000 3300 60  0000 L CNN
-F 1 "AndersonPP" V 7250 3800 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6900 2750 60  0001 C CNN
-F 3 "" H 6900 2750 60  0001 C CNN
-	2    7050 3300
+P 7050 4400
+F 0 "Conn21" V 7000 4400 60  0000 L CNN
+F 1 "AndersonPP" V 7250 4900 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 6900 3850 60  0001 C CNN
+F 3 "" H 6900 3850 60  0001 C CNN
+	2    7050 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn22
 U 1 1 5C0D7218
-P 7850 3300
-F 0 "Conn22" V 7800 3100 60  0000 L CNN
-F 1 "AndersonPP" V 8109 3528 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 7700 2750 60  0001 C CNN
-F 3 "" H 7700 2750 60  0001 C CNN
-	1    7850 3300
+P 7850 4400
+F 0 "Conn22" V 7800 4200 60  0000 L CNN
+F 1 "AndersonPP" V 8109 4628 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 7700 3850 60  0001 C CNN
+F 3 "" H 7700 3850 60  0001 C CNN
+	1    7850 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn22
 U 2 1 5C0D7224
-P 8150 3300
-F 0 "Conn22" V 8100 3300 60  0000 L CNN
-F 1 "AndersonPP" V 8350 3800 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 8000 2750 60  0001 C CNN
-F 3 "" H 8000 2750 60  0001 C CNN
-	2    8150 3300
+P 8150 4400
+F 0 "Conn22" V 8100 4400 60  0000 L CNN
+F 1 "AndersonPP" V 8350 4900 60  0001 L CNN
+F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 8000 3850 60  0001 C CNN
+F 3 "" H 8000 3850 60  0001 C CNN
+	2    8150 4400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8250 4000 8250 3700
+	8250 5100 8250 4800
 Wire Wire Line
-	7950 3700 7950 4150
+	7950 4800 7950 5250
 Wire Wire Line
-	7950 4150 6850 4150
+	7950 5250 6850 5250
 Wire Wire Line
-	3550 3700 3550 4150
+	3550 4800 3550 5250
 Wire Wire Line
-	3850 3700 3850 4000
-Connection ~ 3850 4000
+	3850 4800 3850 5100
+Connection ~ 3850 5100
 Wire Wire Line
-	3850 4000 4950 4000
+	3850 5100 4950 5100
 Wire Wire Line
-	4650 3700 4650 4150
-Connection ~ 4650 4150
+	4650 4800 4650 5250
+Connection ~ 4650 5250
 Wire Wire Line
-	4650 4150 3550 4150
+	4650 5250 3550 5250
 Wire Wire Line
-	4950 3700 4950 4000
-Connection ~ 4950 4000
+	4950 4800 4950 5100
+Connection ~ 4950 5100
 Wire Wire Line
-	4950 4000 6050 4000
+	4950 5100 6050 5100
 Wire Wire Line
-	5750 3700 5750 4150
-Connection ~ 5750 4150
+	5750 4800 5750 5250
+Connection ~ 5750 5250
 Wire Wire Line
-	5750 4150 4650 4150
+	5750 5250 4650 5250
 Wire Wire Line
-	6050 3700 6050 4000
-Connection ~ 6050 4000
+	6050 4800 6050 5100
+Connection ~ 6050 5100
 Wire Wire Line
-	6050 4000 7150 4000
+	6050 5100 7150 5100
 Wire Wire Line
-	6850 3700 6850 4150
-Connection ~ 6850 4150
+	6850 4800 6850 5250
+Connection ~ 6850 5250
 Wire Wire Line
-	6850 4150 5750 4150
+	6850 5250 5750 5250
 Wire Wire Line
-	7150 3700 7150 4000
-Connection ~ 7150 4000
+	7150 4800 7150 5100
+Connection ~ 7150 5100
 Wire Wire Line
-	7150 4000 8250 4000
+	7150 5100 8250 5100
 Wire Wire Line
-	3150 3000 3150 4150
+	3150 4100 3150 5250
 Wire Wire Line
-	3550 4150 3150 4150
-Connection ~ 3550 4150
-Connection ~ 3150 4150
+	3550 5250 3150 5250
+Connection ~ 3550 5250
+Connection ~ 3150 5250
 Wire Wire Line
-	3150 4150 3150 4250
+	3150 5250 3150 5350
 $Comp
 L power:+12C #PWR07
 U 1 1 5C0E5E3E
-P 2850 3900
-F 0 "#PWR07" H 2850 3750 50  0001 C CNN
-F 1 "+12C" H 2865 4073 50  0000 C CNN
-F 2 "" H 2850 3900 50  0001 C CNN
-F 3 "" H 2850 3900 50  0001 C CNN
-	1    2850 3900
+P 2850 5000
+F 0 "#PWR07" H 2850 4850 50  0001 C CNN
+F 1 "+12C" H 2865 5173 50  0000 C CNN
+F 2 "" H 2850 5000 50  0001 C CNN
+F 3 "" H 2850 5000 50  0001 C CNN
+	1    2850 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3900 2850 4000
+	2850 5000 2850 5100
 Wire Wire Line
-	2850 4000 3850 4000
-Wire Notes Line
-	2300 4650 11200 4650
+	2850 5100 3850 5100
 Wire Notes Line
 	11200 4650 11200 500 
 Wire Notes Line
@@ -1062,4 +1059,107 @@ Wire Notes Line
 	500  700  11200 700 
 Text Notes 6000 650  0    79   ~ 16
 Power Output Connectors\n
+$Comp
+L MRDT_Connectors:AndersonPP Conn23
+U 1 1 5C13EA43
+P 3450 3250
+F 0 "Conn23" V 3400 3150 60  0000 L CNN
+F 1 "AndersonPP" V 3709 3478 60  0001 L CNN
+F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3300 2700 60  0001 C CNN
+F 3 "" H 3300 2700 60  0001 C CNN
+	1    3450 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn23
+U 3 1 5C13EA49
+P 4050 3250
+F 0 "Conn23" V 4000 3150 60  0000 L CNN
+F 1 "AndersonPP" V 4309 3478 60  0001 L CNN
+F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3900 2700 60  0001 C CNN
+F 3 "" H 3900 2700 60  0001 C CNN
+	3    4050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn23
+U 2 1 5C13EA4F
+P 3750 3250
+F 0 "Conn23" V 3600 3150 60  0000 L CNN
+F 1 "AndersonPP" V 3950 3750 60  0001 L CNN
+F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3600 2700 60  0001 C CNN
+F 3 "" H 3600 2700 60  0001 C CNN
+	2    3750 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn24
+U 1 1 5C13EA55
+P 4550 3250
+F 0 "Conn24" V 4500 3150 60  0000 L CNN
+F 1 "AndersonPP" V 4809 3478 60  0001 L CNN
+F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4400 2700 60  0001 C CNN
+F 3 "" H 4400 2700 60  0001 C CNN
+	1    4550 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn24
+U 3 1 5C13EA5B
+P 5150 3250
+F 0 "Conn24" V 5100 3150 60  0000 L CNN
+F 1 "AndersonPP" V 5409 3478 60  0001 L CNN
+F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5000 2700 60  0001 C CNN
+F 3 "" H 5000 2700 60  0001 C CNN
+	3    5150 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn24
+U 2 1 5C13EA61
+P 4850 3250
+F 0 "Conn24" V 4700 3150 60  0000 L CNN
+F 1 "AndersonPP" V 5050 3750 60  0001 L CNN
+F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4700 2700 60  0001 C CNN
+F 3 "" H 4700 2700 60  0001 C CNN
+	2    4850 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 3800 4150 3650
+Wire Wire Line
+	4150 3800 5250 3800
+Connection ~ 4150 3800
+Wire Wire Line
+	3850 3650 3850 3950
+Wire Wire Line
+	3850 3950 4950 3950
+Wire Wire Line
+	4950 3650 4950 3950
+Wire Wire Line
+	5250 3650 5250 3800
+Wire Wire Line
+	4650 3650 4650 4100
+Wire Wire Line
+	4650 4100 3550 4100
+Wire Wire Line
+	3550 3650 3550 4100
+Connection ~ 3550 4100
+Wire Wire Line
+	3550 4100 3150 4100
+Wire Wire Line
+	3150 3000 3150 4100
+Wire Wire Line
+	2850 3800 4150 3800
+Wire Wire Line
+	2850 2700 2850 3800
+Wire Wire Line
+	2550 3950 3850 3950
+Connection ~ 3850 3950
+Wire Wire Line
+	2550 2850 2550 3950
+Connection ~ 2550 2850
+Connection ~ 2850 2700
+Connection ~ 3150 3000
+Connection ~ 3150 4100
 $EndSCHEMATC
