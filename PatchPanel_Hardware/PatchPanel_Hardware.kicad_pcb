@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 5.588)
+    (last_trace_width 0.25)
     (user_trace_width 1.778)
     (user_trace_width 2.032)
     (user_trace_width 3.302)
@@ -91,9 +91,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerbs/"))
   )
 
   (net 0 "")
@@ -10137,7 +10137,7 @@
   (segment (start 150.71 75.92) (end 150.71 31.75) (width 5.588) (layer F.Cu) (net 4))
   (segment (start 150.71 31.75) (end 150.71 25.12) (width 5.588) (layer F.Cu) (net 4))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C296C9D) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -10237,7 +10237,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C296C9A) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
