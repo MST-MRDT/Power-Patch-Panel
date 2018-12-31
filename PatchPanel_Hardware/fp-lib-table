@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PatchPanel_Hardware)(type KiCad)(uri "C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2018-19 Rover/PatchPanel_Hardware/Libraries/Packages/PatchPanel_Hardware.pretty")(options "")(descr ""))
+  (lib (name PowerBoard_Hardware)(type KiCad)(uri "C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2018-19 Rover/PatchPanel_Hardware/Libraries/Packages/PowerBoard_Hardware.pretty")(options "")(descr ""))
+)
