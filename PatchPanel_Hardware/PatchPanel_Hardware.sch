@@ -20,7 +20,7 @@ U 1 1 5C0AEAD8
 P 1250 1650
 F 0 "Conn8" H 1450 1900 60  0000 C CNN
 F 1 "AndersonPP" H 1456 1931 60  0001 C CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 1100 1100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1100 1100 60  0001 C CNN
 F 3 "" H 1100 1100 60  0001 C CNN
 	1    1250 1650
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5C0AEB2E
 P 1250 2500
 F 0 "Conn16" H 1450 2750 60  0000 C CNN
 F 1 "AndersonPP" H 1456 2781 60  0001 C CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 1100 1950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1100 1950 60  0001 C CNN
 F 3 "" H 1100 1950 60  0001 C CNN
 	1    1250 2500
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5C0AEBE4
 P 1250 3350
 F 0 "Conn17" H 1450 3600 60  0000 C CNN
 F 1 "AndersonPP" H 1456 3631 60  0001 C CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 1100 2800 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1100 2800 60  0001 C CNN
 F 3 "" H 1100 2800 60  0001 C CNN
 	1    1250 3350
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 2 1 5C0AEC45
 P 1250 2200
 F 0 "Conn16" H 1456 2587 60  0000 C CNN
 F 1 "AndersonPP" H 1456 2481 60  0000 C CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 1100 1650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1100 1650 60  0001 C CNN
 F 3 "" H 1100 1650 60  0001 C CNN
 	2    1250 2200
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 2 1 5C0AECA2
 P 1250 1350
 F 0 "Conn8" H 1456 1737 60  0000 C CNN
 F 1 "AndersonPP" H 1456 1631 60  0000 C CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 1100 800 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1100 800 60  0001 C CNN
 F 3 "" H 1100 800 60  0001 C CNN
 	2    1250 1350
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 2 1 5C0AED0F
 P 1250 3050
 F 0 "Conn17" H 1456 3437 60  0000 C CNN
 F 1 "AndersonPP" H 1456 3331 60  0000 C CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 1100 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1100 2500 60  0001 C CNN
 F 3 "" H 1100 2500 60  0001 C CNN
 	2    1250 3050
 	1    0    0    -1  
@@ -168,7 +168,7 @@ U 1 1 5C0B1DA0
 P 3450 1050
 F 0 "Conn1" V 3400 950 60  0000 L CNN
 F 1 "AndersonPP" V 3709 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3300 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3300 500 60  0001 C CNN
 F 3 "" H 3300 500 60  0001 C CNN
 	1    3450 1050
 	0    1    1    0   
@@ -179,7 +179,7 @@ U 3 1 5C0B1DA6
 P 4050 1050
 F 0 "Conn1" V 4000 1050 60  0000 L CNN
 F 1 "AndersonPP" V 4309 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3900 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3900 500 60  0001 C CNN
 F 3 "" H 3900 500 60  0001 C CNN
 	3    4050 1050
 	0    1    1    0   
@@ -190,7 +190,7 @@ U 2 1 5C0B1DAC
 P 3750 1050
 F 0 "Conn1" V 3700 1000 60  0000 L CNN
 F 1 "AndersonPP" V 3950 1550 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3600 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3600 500 60  0001 C CNN
 F 3 "" H 3600 500 60  0001 C CNN
 	2    3750 1050
 	0    1    1    0   
@@ -201,7 +201,7 @@ U 1 1 5C0B71CC
 P 4550 1050
 F 0 "Conn2" V 4500 950 60  0000 L CNN
 F 1 "AndersonPP" V 4809 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4400 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4400 500 60  0001 C CNN
 F 3 "" H 4400 500 60  0001 C CNN
 	1    4550 1050
 	0    1    1    0   
@@ -212,7 +212,7 @@ U 3 1 5C0B71D2
 P 5150 1050
 F 0 "Conn2" V 5100 1050 60  0000 L CNN
 F 1 "AndersonPP" V 5409 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5000 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5000 500 60  0001 C CNN
 F 3 "" H 5000 500 60  0001 C CNN
 	3    5150 1050
 	0    1    1    0   
@@ -223,7 +223,7 @@ U 2 1 5C0B71D8
 P 4850 1050
 F 0 "Conn2" V 4800 1000 60  0000 L CNN
 F 1 "AndersonPP" V 5050 1550 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4700 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4700 500 60  0001 C CNN
 F 3 "" H 4700 500 60  0001 C CNN
 	2    4850 1050
 	0    1    1    0   
@@ -234,7 +234,7 @@ U 1 1 5C0B7370
 P 5650 1050
 F 0 "Conn3" V 5600 950 60  0000 L CNN
 F 1 "AndersonPP" V 5909 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5500 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5500 500 60  0001 C CNN
 F 3 "" H 5500 500 60  0001 C CNN
 	1    5650 1050
 	0    1    1    0   
@@ -245,7 +245,7 @@ U 3 1 5C0B7376
 P 6250 1050
 F 0 "Conn3" V 6200 1050 60  0000 L CNN
 F 1 "AndersonPP" V 6509 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6100 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6100 500 60  0001 C CNN
 F 3 "" H 6100 500 60  0001 C CNN
 	3    6250 1050
 	0    1    1    0   
@@ -256,7 +256,7 @@ U 2 1 5C0B737C
 P 5950 1050
 F 0 "Conn3" V 5900 1000 60  0000 L CNN
 F 1 "AndersonPP" V 6150 1550 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5800 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5800 500 60  0001 C CNN
 F 3 "" H 5800 500 60  0001 C CNN
 	2    5950 1050
 	0    1    1    0   
@@ -267,7 +267,7 @@ U 1 1 5C0B7382
 P 6750 1050
 F 0 "Conn4" V 6700 950 60  0000 L CNN
 F 1 "AndersonPP" V 7009 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6600 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6600 500 60  0001 C CNN
 F 3 "" H 6600 500 60  0001 C CNN
 	1    6750 1050
 	0    1    1    0   
@@ -278,7 +278,7 @@ U 3 1 5C0B7388
 P 7350 1050
 F 0 "Conn4" V 7300 1050 60  0000 L CNN
 F 1 "AndersonPP" V 7609 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 7200 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7200 500 60  0001 C CNN
 F 3 "" H 7200 500 60  0001 C CNN
 	3    7350 1050
 	0    1    1    0   
@@ -289,7 +289,7 @@ U 2 1 5C0B738E
 P 7050 1050
 F 0 "Conn4" V 7000 1000 60  0000 L CNN
 F 1 "AndersonPP" V 7250 1550 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6900 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6900 500 60  0001 C CNN
 F 3 "" H 6900 500 60  0001 C CNN
 	2    7050 1050
 	0    1    1    0   
@@ -300,7 +300,7 @@ U 1 1 5C0B76CD
 P 7850 1050
 F 0 "Conn5" V 7800 950 60  0000 L CNN
 F 1 "AndersonPP" V 8109 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 7700 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7700 500 60  0001 C CNN
 F 3 "" H 7700 500 60  0001 C CNN
 	1    7850 1050
 	0    1    1    0   
@@ -311,7 +311,7 @@ U 3 1 5C0B76D3
 P 8450 1050
 F 0 "Conn5" V 8400 1050 60  0000 L CNN
 F 1 "AndersonPP" V 8709 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 8300 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8300 500 60  0001 C CNN
 F 3 "" H 8300 500 60  0001 C CNN
 	3    8450 1050
 	0    1    1    0   
@@ -322,7 +322,7 @@ U 2 1 5C0B76D9
 P 8150 1050
 F 0 "Conn5" V 8100 1000 60  0000 L CNN
 F 1 "AndersonPP" V 8350 1550 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 8000 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8000 500 60  0001 C CNN
 F 3 "" H 8000 500 60  0001 C CNN
 	2    8150 1050
 	0    1    1    0   
@@ -333,7 +333,7 @@ U 1 1 5C0B76DF
 P 8950 1050
 F 0 "Conn6" V 8900 950 60  0000 L CNN
 F 1 "AndersonPP" V 9209 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 8800 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8800 500 60  0001 C CNN
 F 3 "" H 8800 500 60  0001 C CNN
 	1    8950 1050
 	0    1    1    0   
@@ -344,7 +344,7 @@ U 3 1 5C0B76E5
 P 9550 1050
 F 0 "Conn6" V 9500 1050 60  0000 L CNN
 F 1 "AndersonPP" V 9809 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 9400 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9400 500 60  0001 C CNN
 F 3 "" H 9400 500 60  0001 C CNN
 	3    9550 1050
 	0    1    1    0   
@@ -355,7 +355,7 @@ U 2 1 5C0B76EB
 P 9250 1050
 F 0 "Conn6" V 9200 1000 60  0000 L CNN
 F 1 "AndersonPP" V 9450 1550 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 9100 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9100 500 60  0001 C CNN
 F 3 "" H 9100 500 60  0001 C CNN
 	2    9250 1050
 	0    1    1    0   
@@ -366,7 +366,7 @@ U 1 1 5C0B76F1
 P 10050 1050
 F 0 "Conn7" V 10000 950 60  0000 L CNN
 F 1 "AndersonPP" V 10309 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 9900 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9900 500 60  0001 C CNN
 F 3 "" H 9900 500 60  0001 C CNN
 	1    10050 1050
 	0    1    1    0   
@@ -377,7 +377,7 @@ U 3 1 5C0B76F7
 P 10650 1050
 F 0 "Conn7" V 10600 1050 60  0000 L CNN
 F 1 "AndersonPP" V 10909 1278 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 10500 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10500 500 60  0001 C CNN
 F 3 "" H 10500 500 60  0001 C CNN
 	3    10650 1050
 	0    1    1    0   
@@ -388,7 +388,7 @@ U 2 1 5C0B76FD
 P 10350 1050
 F 0 "Conn7" V 10300 1000 60  0000 L CNN
 F 1 "AndersonPP" V 10550 1550 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 10200 500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10200 500 60  0001 C CNN
 F 3 "" H 10200 500 60  0001 C CNN
 	2    10350 1050
 	0    1    1    0   
@@ -526,7 +526,7 @@ U 1 1 5C0C100B
 P 3450 2150
 F 0 "Conn9" V 3400 2050 60  0000 L CNN
 F 1 "AndersonPP" V 3709 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3300 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3300 1600 60  0001 C CNN
 F 3 "" H 3300 1600 60  0001 C CNN
 	1    3450 2150
 	0    1    1    0   
@@ -537,7 +537,7 @@ U 3 1 5C0C1011
 P 4050 2150
 F 0 "Conn9" V 4000 2150 60  0000 L CNN
 F 1 "AndersonPP" V 4309 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3900 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3900 1600 60  0001 C CNN
 F 3 "" H 3900 1600 60  0001 C CNN
 	3    4050 2150
 	0    1    1    0   
@@ -548,7 +548,7 @@ U 2 1 5C0C1017
 P 3750 2150
 F 0 "Conn9" V 3700 2100 60  0000 L CNN
 F 1 "AndersonPP" V 3950 2650 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3600 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3600 1600 60  0001 C CNN
 F 3 "" H 3600 1600 60  0001 C CNN
 	2    3750 2150
 	0    1    1    0   
@@ -559,7 +559,7 @@ U 1 1 5C0C101D
 P 4550 2150
 F 0 "Conn10" V 4500 2050 60  0000 L CNN
 F 1 "AndersonPP" V 4809 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4400 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4400 1600 60  0001 C CNN
 F 3 "" H 4400 1600 60  0001 C CNN
 	1    4550 2150
 	0    1    1    0   
@@ -570,7 +570,7 @@ U 3 1 5C0C1023
 P 5150 2150
 F 0 "Conn10" V 5100 2050 60  0000 L CNN
 F 1 "AndersonPP" V 5409 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5000 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5000 1600 60  0001 C CNN
 F 3 "" H 5000 1600 60  0001 C CNN
 	3    5150 2150
 	0    1    1    0   
@@ -581,7 +581,7 @@ U 2 1 5C0C1029
 P 4850 2150
 F 0 "Conn10" V 4700 2050 60  0000 L CNN
 F 1 "AndersonPP" V 5050 2650 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4700 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4700 1600 60  0001 C CNN
 F 3 "" H 4700 1600 60  0001 C CNN
 	2    4850 2150
 	0    1    1    0   
@@ -592,7 +592,7 @@ U 1 1 5C0C102F
 P 5650 2150
 F 0 "Conn11" V 5600 2050 60  0000 L CNN
 F 1 "AndersonPP" V 5909 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5500 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5500 1600 60  0001 C CNN
 F 3 "" H 5500 1600 60  0001 C CNN
 	1    5650 2150
 	0    1    1    0   
@@ -603,7 +603,7 @@ U 3 1 5C0C1035
 P 6250 2150
 F 0 "Conn11" V 6200 2050 60  0000 L CNN
 F 1 "AndersonPP" V 6509 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6100 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6100 1600 60  0001 C CNN
 F 3 "" H 6100 1600 60  0001 C CNN
 	3    6250 2150
 	0    1    1    0   
@@ -614,7 +614,7 @@ U 2 1 5C0C103B
 P 5950 2150
 F 0 "Conn11" V 5800 2050 60  0000 L CNN
 F 1 "AndersonPP" V 6150 2650 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5800 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5800 1600 60  0001 C CNN
 F 3 "" H 5800 1600 60  0001 C CNN
 	2    5950 2150
 	0    1    1    0   
@@ -625,7 +625,7 @@ U 1 1 5C0C1041
 P 6750 2150
 F 0 "Conn12" V 6700 2050 60  0000 L CNN
 F 1 "AndersonPP" V 7009 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6600 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6600 1600 60  0001 C CNN
 F 3 "" H 6600 1600 60  0001 C CNN
 	1    6750 2150
 	0    1    1    0   
@@ -636,7 +636,7 @@ U 3 1 5C0C1047
 P 7350 2150
 F 0 "Conn12" V 7300 2050 60  0000 L CNN
 F 1 "AndersonPP" V 7609 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 7200 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7200 1600 60  0001 C CNN
 F 3 "" H 7200 1600 60  0001 C CNN
 	3    7350 2150
 	0    1    1    0   
@@ -647,7 +647,7 @@ U 2 1 5C0C104D
 P 7050 2150
 F 0 "Conn12" V 6900 2050 60  0000 L CNN
 F 1 "AndersonPP" V 7250 2650 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 6900 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6900 1600 60  0001 C CNN
 F 3 "" H 6900 1600 60  0001 C CNN
 	2    7050 2150
 	0    1    1    0   
@@ -658,7 +658,7 @@ U 1 1 5C0C1053
 P 7850 2150
 F 0 "Conn13" V 7800 2050 60  0000 L CNN
 F 1 "AndersonPP" V 8109 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 7700 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7700 1600 60  0001 C CNN
 F 3 "" H 7700 1600 60  0001 C CNN
 	1    7850 2150
 	0    1    1    0   
@@ -669,7 +669,7 @@ U 3 1 5C0C1059
 P 8450 2150
 F 0 "Conn13" V 8400 2050 60  0000 L CNN
 F 1 "AndersonPP" V 8709 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 8300 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8300 1600 60  0001 C CNN
 F 3 "" H 8300 1600 60  0001 C CNN
 	3    8450 2150
 	0    1    1    0   
@@ -680,7 +680,7 @@ U 2 1 5C0C105F
 P 8150 2150
 F 0 "Conn13" V 8000 2050 60  0000 L CNN
 F 1 "AndersonPP" V 8350 2650 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 8000 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8000 1600 60  0001 C CNN
 F 3 "" H 8000 1600 60  0001 C CNN
 	2    8150 2150
 	0    1    1    0   
@@ -691,7 +691,7 @@ U 1 1 5C0C1065
 P 8950 2150
 F 0 "Conn14" V 8900 2050 60  0000 L CNN
 F 1 "AndersonPP" V 9209 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 8800 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8800 1600 60  0001 C CNN
 F 3 "" H 8800 1600 60  0001 C CNN
 	1    8950 2150
 	0    1    1    0   
@@ -702,7 +702,7 @@ U 3 1 5C0C106B
 P 9550 2150
 F 0 "Conn14" V 9500 2050 60  0000 L CNN
 F 1 "AndersonPP" V 9809 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 9400 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9400 1600 60  0001 C CNN
 F 3 "" H 9400 1600 60  0001 C CNN
 	3    9550 2150
 	0    1    1    0   
@@ -713,7 +713,7 @@ U 2 1 5C0C1071
 P 9250 2150
 F 0 "Conn14" V 9100 2050 60  0000 L CNN
 F 1 "AndersonPP" V 9450 2650 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 9100 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9100 1600 60  0001 C CNN
 F 3 "" H 9100 1600 60  0001 C CNN
 	2    9250 2150
 	0    1    1    0   
@@ -724,7 +724,7 @@ U 1 1 5C0C1077
 P 10050 2150
 F 0 "Conn15" V 10000 2050 60  0000 L CNN
 F 1 "AndersonPP" V 10309 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 9900 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9900 1600 60  0001 C CNN
 F 3 "" H 9900 1600 60  0001 C CNN
 	1    10050 2150
 	0    1    1    0   
@@ -735,7 +735,7 @@ U 3 1 5C0C107D
 P 10650 2150
 F 0 "Conn15" V 10600 2050 60  0000 L CNN
 F 1 "AndersonPP" V 10909 2378 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 10500 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10500 1600 60  0001 C CNN
 F 3 "" H 10500 1600 60  0001 C CNN
 	3    10650 2150
 	0    1    1    0   
@@ -746,7 +746,7 @@ U 2 1 5C0C1083
 P 10350 2150
 F 0 "Conn15" V 10200 2050 60  0000 L CNN
 F 1 "AndersonPP" V 10550 2650 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 10200 1600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10200 1600 60  0001 C CNN
 F 3 "" H 10200 1600 60  0001 C CNN
 	2    10350 2150
 	0    1    1    0   
@@ -879,7 +879,7 @@ U 1 1 5C0D71D0
 P 3450 4400
 F 0 "Conn18" V 3400 4200 60  0000 L CNN
 F 1 "AndersonPP" V 3709 4628 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 3300 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3300 3850 60  0001 C CNN
 F 3 "" H 3300 3850 60  0001 C CNN
 	1    3450 4400
 	0    1    1    0   
@@ -890,7 +890,7 @@ U 2 1 5C0D71DC
 P 3750 4400
 F 0 "Conn18" V 3700 4400 60  0000 L CNN
 F 1 "AndersonPP" V 3950 4900 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 3600 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3600 3850 60  0001 C CNN
 F 3 "" H 3600 3850 60  0001 C CNN
 	2    3750 4400
 	0    1    1    0   
@@ -901,7 +901,7 @@ U 1 1 5C0D71E2
 P 4550 4400
 F 0 "Conn19" V 4500 4200 60  0000 L CNN
 F 1 "AndersonPP" V 4809 4628 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 4400 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4400 3850 60  0001 C CNN
 F 3 "" H 4400 3850 60  0001 C CNN
 	1    4550 4400
 	0    1    1    0   
@@ -912,7 +912,7 @@ U 2 1 5C0D71EE
 P 4850 4400
 F 0 "Conn19" V 4800 4400 60  0000 L CNN
 F 1 "AndersonPP" V 5050 4900 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 4700 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4700 3850 60  0001 C CNN
 F 3 "" H 4700 3850 60  0001 C CNN
 	2    4850 4400
 	0    1    1    0   
@@ -923,7 +923,7 @@ U 1 1 5C0D71F4
 P 5650 4400
 F 0 "Conn20" V 5600 4200 60  0000 L CNN
 F 1 "AndersonPP" V 5909 4628 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 5500 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 5500 3850 60  0001 C CNN
 F 3 "" H 5500 3850 60  0001 C CNN
 	1    5650 4400
 	0    1    1    0   
@@ -934,7 +934,7 @@ U 2 1 5C0D7200
 P 5950 4400
 F 0 "Conn20" V 5900 4400 60  0000 L CNN
 F 1 "AndersonPP" V 6150 4900 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 5800 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 5800 3850 60  0001 C CNN
 F 3 "" H 5800 3850 60  0001 C CNN
 	2    5950 4400
 	0    1    1    0   
@@ -945,7 +945,7 @@ U 1 1 5C0D7206
 P 6750 4400
 F 0 "Conn21" V 6700 4200 60  0000 L CNN
 F 1 "AndersonPP" V 7009 4628 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 6600 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6600 3850 60  0001 C CNN
 F 3 "" H 6600 3850 60  0001 C CNN
 	1    6750 4400
 	0    1    1    0   
@@ -956,7 +956,7 @@ U 2 1 5C0D7212
 P 7050 4400
 F 0 "Conn21" V 7000 4400 60  0000 L CNN
 F 1 "AndersonPP" V 7250 4900 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 6900 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6900 3850 60  0001 C CNN
 F 3 "" H 6900 3850 60  0001 C CNN
 	2    7050 4400
 	0    1    1    0   
@@ -967,7 +967,7 @@ U 1 1 5C0D7218
 P 7850 4400
 F 0 "Conn22" V 7800 4200 60  0000 L CNN
 F 1 "AndersonPP" V 8109 4628 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 7700 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7700 3850 60  0001 C CNN
 F 3 "" H 7700 3850 60  0001 C CNN
 	1    7850 4400
 	0    1    1    0   
@@ -978,7 +978,7 @@ U 2 1 5C0D7224
 P 8150 4400
 F 0 "Conn22" V 8100 4400 60  0000 L CNN
 F 1 "AndersonPP" V 8350 4900 60  0001 L CNN
-F 2 "PowerBoard_Hardware:Vertical_Anderson_Double_SidebySide" H 8000 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8000 3850 60  0001 C CNN
 F 3 "" H 8000 3850 60  0001 C CNN
 	2    8150 4400
 	0    1    1    0   
@@ -1065,7 +1065,7 @@ U 1 1 5C13EA43
 P 3450 3250
 F 0 "Conn23" V 3400 3150 60  0000 L CNN
 F 1 "AndersonPP" V 3709 3478 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3300 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3300 2700 60  0001 C CNN
 F 3 "" H 3300 2700 60  0001 C CNN
 	1    3450 3250
 	0    1    1    0   
@@ -1076,7 +1076,7 @@ U 3 1 5C13EA49
 P 4050 3250
 F 0 "Conn23" V 4000 3150 60  0000 L CNN
 F 1 "AndersonPP" V 4309 3478 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3900 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3900 2700 60  0001 C CNN
 F 3 "" H 3900 2700 60  0001 C CNN
 	3    4050 3250
 	0    1    1    0   
@@ -1087,7 +1087,7 @@ U 2 1 5C13EA4F
 P 3750 3250
 F 0 "Conn23" V 3600 3150 60  0000 L CNN
 F 1 "AndersonPP" V 3950 3750 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 3600 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3600 2700 60  0001 C CNN
 F 3 "" H 3600 2700 60  0001 C CNN
 	2    3750 3250
 	0    1    1    0   
@@ -1098,7 +1098,7 @@ U 1 1 5C13EA55
 P 4550 3250
 F 0 "Conn24" V 4500 3150 60  0000 L CNN
 F 1 "AndersonPP" V 4809 3478 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4400 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4400 2700 60  0001 C CNN
 F 3 "" H 4400 2700 60  0001 C CNN
 	1    4550 3250
 	0    1    1    0   
@@ -1109,7 +1109,7 @@ U 3 1 5C13EA5B
 P 5150 3250
 F 0 "Conn24" V 5100 3150 60  0000 L CNN
 F 1 "AndersonPP" V 5409 3478 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 5000 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5000 2700 60  0001 C CNN
 F 3 "" H 5000 2700 60  0001 C CNN
 	3    5150 3250
 	0    1    1    0   
@@ -1120,7 +1120,7 @@ U 2 1 5C13EA61
 P 4850 3250
 F 0 "Conn24" V 4700 3150 60  0000 L CNN
 F 1 "AndersonPP" V 5050 3750 60  0001 L CNN
-F 2 "PatchPanel_Hardware:Vertical_Anderson_Triple_SidebySide" H 4700 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4700 2700 60  0001 C CNN
 F 3 "" H 4700 2700 60  0001 C CNN
 	2    4850 3250
 	0    1    1    0   
