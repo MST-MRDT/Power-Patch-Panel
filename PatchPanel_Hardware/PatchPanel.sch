@@ -1,0 +1,1683 @@
+EESchema Schematic File Version 4
+LIBS:PatchPanel-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 2 1 5D97D20C
+P 900 1000
+F 0 "Conn1" H 1106 1387 60  0000 C CNN
+F 1 "AndersonPP" H 1106 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 750 450 60  0001 C CNN
+F 3 "" H 750 450 60  0001 C CNN
+	2    900  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 3 1 5D97D261
+P 900 1450
+F 0 "Conn1" H 1106 1837 60  0000 C CNN
+F 1 "AndersonPP" H 1106 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 750 900 60  0001 C CNN
+F 3 "" H 750 900 60  0001 C CNN
+	3    900  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn9
+U 1 1 5D998B5F
+P 6550 2300
+F 0 "Conn9" H 6494 3497 60  0000 C CNN
+F 1 "Molex_SL_10" H 6494 3391 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 6550 2800 60  0001 C CNN
+F 3 "" H 6550 2800 60  0001 C CNN
+	1    6550 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q1
+U 1 1 5D998BE4
+P 1550 1000
+F 0 "Q1" H 1756 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 1756 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1750 1100 50  0001 C CNN
+F 3 "~" H 1550 1000 50  0001 C CNN
+	1    1550 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2000 5600 2000
+Wire Wire Line
+	5600 2000 5600 2100
+Wire Wire Line
+	2750 1900 5700 1900
+Wire Wire Line
+	5700 1900 5700 2100
+Wire Wire Line
+	3950 1850 5800 1850
+Wire Wire Line
+	5800 1850 5800 2100
+Wire Wire Line
+	5100 1750 5900 1750
+Wire Wire Line
+	5900 1750 5900 2100
+Wire Wire Line
+	6100 2100 6100 1750
+Wire Wire Line
+	6200 2100 6200 1800
+Wire Wire Line
+	6300 2100 6300 1850
+Wire Wire Line
+	6400 2100 6400 1900
+Wire Wire Line
+	6400 1900 10100 1900
+Wire Wire Line
+	6500 2100 6500 2000
+Wire Wire Line
+	6500 2000 10450 2000
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 1 1 5DA26A20
+P 950 5300
+F 0 "Conn1" H 1156 5687 60  0000 C CNN
+F 1 "AndersonPP" H 1156 5581 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 800 4750 60  0001 C CNN
+F 3 "" H 800 4750 60  0001 C CNN
+	1    950  5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn5
+U 1 1 5DA26B2A
+P 950 5800
+F 0 "Conn5" H 1156 6187 60  0000 C CNN
+F 1 "AndersonPP" H 1156 6081 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 800 5250 60  0001 C CNN
+F 3 "" H 800 5250 60  0001 C CNN
+	1    950  5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn10
+U 1 1 5DA30ABD
+P 950 6250
+F 0 "Conn10" H 1156 6637 60  0000 C CNN
+F 1 "AndersonPP" H 1156 6531 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 800 5700 60  0001 C CNN
+F 3 "" H 800 5700 60  0001 C CNN
+	1    950  6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn14
+U 1 1 5DA30AC4
+P 950 6750
+F 0 "Conn14" H 1156 7137 60  0000 C CNN
+F 1 "AndersonPP" H 1156 7031 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 800 6200 60  0001 C CNN
+F 3 "" H 800 6200 60  0001 C CNN
+	1    950  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn2
+U 1 1 5DA3AA95
+P 1750 5300
+F 0 "Conn2" H 1956 5687 60  0000 C CNN
+F 1 "AndersonPP" H 1956 5581 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1600 4750 60  0001 C CNN
+F 3 "" H 1600 4750 60  0001 C CNN
+	1    1750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn6
+U 1 1 5DA3AA9C
+P 1750 5800
+F 0 "Conn6" H 1956 6187 60  0000 C CNN
+F 1 "AndersonPP" H 1956 6081 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1600 5250 60  0001 C CNN
+F 3 "" H 1600 5250 60  0001 C CNN
+	1    1750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn11
+U 1 1 5DA3AAA3
+P 1750 6250
+F 0 "Conn11" H 1956 6637 60  0000 C CNN
+F 1 "AndersonPP" H 1956 6531 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1600 5700 60  0001 C CNN
+F 3 "" H 1600 5700 60  0001 C CNN
+	1    1750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn15
+U 1 1 5DA3AAAA
+P 1750 6750
+F 0 "Conn15" H 1956 7137 60  0000 C CNN
+F 1 "AndersonPP" H 1956 7031 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1600 6200 60  0001 C CNN
+F 3 "" H 1600 6200 60  0001 C CNN
+	1    1750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 1 1 5DA44D63
+P 2550 5300
+F 0 "Conn3" H 2756 5687 60  0000 C CNN
+F 1 "AndersonPP" H 2756 5581 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2400 4750 60  0001 C CNN
+F 3 "" H 2400 4750 60  0001 C CNN
+	1    2550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn7
+U 1 1 5DA44D6A
+P 2550 5800
+F 0 "Conn7" H 2756 6187 60  0000 C CNN
+F 1 "AndersonPP" H 2756 6081 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2400 5250 60  0001 C CNN
+F 3 "" H 2400 5250 60  0001 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn12
+U 1 1 5DA44D71
+P 2550 6250
+F 0 "Conn12" H 2756 6637 60  0000 C CNN
+F 1 "AndersonPP" H 2756 6531 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2400 5700 60  0001 C CNN
+F 3 "" H 2400 5700 60  0001 C CNN
+	1    2550 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn16
+U 1 1 5DA44D78
+P 2550 6750
+F 0 "Conn16" H 2756 7137 60  0000 C CNN
+F 1 "AndersonPP" H 2756 7031 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2400 6200 60  0001 C CNN
+F 3 "" H 2400 6200 60  0001 C CNN
+	1    2550 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn4
+U 1 1 5DA44D7F
+P 3350 5300
+F 0 "Conn4" H 3556 5687 60  0000 C CNN
+F 1 "AndersonPP" H 3556 5581 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3200 4750 60  0001 C CNN
+F 3 "" H 3200 4750 60  0001 C CNN
+	1    3350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn8
+U 1 1 5DA44D86
+P 3350 5800
+F 0 "Conn8" H 3556 6187 60  0000 C CNN
+F 1 "AndersonPP" H 3556 6081 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3200 5250 60  0001 C CNN
+F 3 "" H 3200 5250 60  0001 C CNN
+	1    3350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn13
+U 1 1 5DA44D8D
+P 3350 6250
+F 0 "Conn13" H 3556 6637 60  0000 C CNN
+F 1 "AndersonPP" H 3556 6531 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3200 5700 60  0001 C CNN
+F 3 "" H 3200 5700 60  0001 C CNN
+	1    3350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn17
+U 1 1 5DA44D94
+P 3350 6750
+F 0 "Conn17" H 3556 7137 60  0000 C CNN
+F 1 "AndersonPP" H 3556 7031 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3200 6200 60  0001 C CNN
+F 3 "" H 3200 6200 60  0001 C CNN
+	1    3350 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5200 1450 5200
+Wire Wire Line
+	1450 5200 1450 5700
+Wire Wire Line
+	1450 6900 2250 6900
+Wire Wire Line
+	2250 6900 2250 6650
+Wire Wire Line
+	2250 5200 2150 5200
+Wire Wire Line
+	2950 5200 3050 5200
+Wire Wire Line
+	3050 5200 3050 5700
+Wire Wire Line
+	3850 6900 3850 6650
+Wire Wire Line
+	3850 5200 3750 5200
+Wire Wire Line
+	1350 5700 1450 5700
+Connection ~ 1450 5700
+Wire Wire Line
+	1450 5700 1450 6150
+Wire Wire Line
+	1350 6150 1450 6150
+Connection ~ 1450 6150
+Wire Wire Line
+	1450 6150 1450 6650
+Wire Wire Line
+	1350 6650 1450 6650
+Connection ~ 1450 6650
+Wire Wire Line
+	1450 6650 1450 6900
+Wire Wire Line
+	2150 5700 2250 5700
+Connection ~ 2250 5700
+Wire Wire Line
+	2250 5700 2250 5200
+Wire Wire Line
+	2150 6150 2250 6150
+Connection ~ 2250 6150
+Wire Wire Line
+	2250 6150 2250 5700
+Wire Wire Line
+	2150 6650 2250 6650
+Connection ~ 2250 6650
+Wire Wire Line
+	2250 6650 2250 6150
+Wire Wire Line
+	2950 5700 3050 5700
+Connection ~ 3050 5700
+Wire Wire Line
+	3050 5700 3050 6150
+Wire Wire Line
+	2950 6150 3050 6150
+Connection ~ 3050 6150
+Wire Wire Line
+	3050 6150 3050 6650
+Wire Wire Line
+	2950 6650 3050 6650
+Wire Wire Line
+	3750 5700 3850 5700
+Connection ~ 3850 5700
+Wire Wire Line
+	3850 5700 3850 5200
+Wire Wire Line
+	3750 6150 3850 6150
+Connection ~ 3850 6150
+Wire Wire Line
+	3850 6150 3850 5700
+Wire Wire Line
+	3750 6650 3850 6650
+Connection ~ 3850 6650
+Wire Wire Line
+	3850 6650 3850 6150
+Connection ~ 2250 6900
+Wire Wire Line
+	2250 6900 3050 6900
+Wire Wire Line
+	3050 6650 3050 6900
+Connection ~ 3050 6650
+Connection ~ 3050 6900
+Wire Wire Line
+	3050 6900 3850 6900
+$Comp
+L MRDT_Connectors:AndersonPP Conn19
+U 1 1 5D9D8707
+P 4250 6800
+F 0 "Conn19" H 4223 6847 60  0000 R CNN
+F 1 "AndersonPP" H 4223 6953 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4100 6250 60  0001 C CNN
+F 3 "" H 4100 6250 60  0001 C CNN
+	1    4250 6800
+	-1   0    0    1   
+$EndComp
+Connection ~ 3850 6900
+Wire Wire Line
+	1750 900  1800 900 
+$Comp
+L Device:Q_PMOS_DGS Q9
+U 1 1 5D9D9F7F
+P 1700 1450
+F 0 "Q9" H 1906 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 1906 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 1550 50  0001 C CNN
+F 3 "~" H 1700 1450 50  0001 C CNN
+	1    1700 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 1350 1950 1250
+Wire Wire Line
+	1300 900  1350 900 
+Wire Wire Line
+	1550 1200 1550 1650
+Wire Wire Line
+	1900 1350 1950 1350
+Wire Wire Line
+	1300 1350 1500 1350
+$Comp
+L MRDT_Connectors:AndersonPP Conn2
+U 2 1 5D9E2320
+P 2100 1000
+F 0 "Conn2" H 2306 1387 60  0000 C CNN
+F 1 "AndersonPP" H 2306 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1950 450 60  0001 C CNN
+F 3 "" H 1950 450 60  0001 C CNN
+	2    2100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn2
+U 3 1 5D9E2327
+P 2100 1450
+F 0 "Conn2" H 2306 1837 60  0000 C CNN
+F 1 "AndersonPP" H 2306 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1950 900 60  0001 C CNN
+F 3 "" H 1950 900 60  0001 C CNN
+	3    2100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q2
+U 1 1 5D9E232E
+P 2750 1000
+F 0 "Q2" H 2956 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 2956 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2950 1100 50  0001 C CNN
+F 3 "~" H 2750 1000 50  0001 C CNN
+	1    2750 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 900  3000 900 
+$Comp
+L Device:Q_PMOS_DGS Q10
+U 1 1 5D9E2336
+P 2900 1450
+F 0 "Q10" H 3106 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 3106 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3100 1550 50  0001 C CNN
+F 3 "~" H 2900 1450 50  0001 C CNN
+	1    2900 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 1350 3150 1250
+Wire Wire Line
+	2500 900  2550 900 
+Wire Wire Line
+	2750 1200 2750 1650
+Wire Wire Line
+	3100 1350 3150 1350
+Wire Wire Line
+	2500 1350 2700 1350
+Wire Wire Line
+	2750 1650 2900 1650
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 2 1 5D9E5365
+P 3350 1000
+F 0 "Conn3" H 3556 1387 60  0000 C CNN
+F 1 "AndersonPP" H 3556 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3200 450 60  0001 C CNN
+F 3 "" H 3200 450 60  0001 C CNN
+	2    3350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 3 1 5D9E536C
+P 3350 1450
+F 0 "Conn3" H 3556 1837 60  0000 C CNN
+F 1 "AndersonPP" H 3556 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3200 900 60  0001 C CNN
+F 3 "" H 3200 900 60  0001 C CNN
+	3    3350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q3
+U 1 1 5D9E5373
+P 4000 1000
+F 0 "Q3" H 4206 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 4206 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 1100 50  0001 C CNN
+F 3 "~" H 4000 1000 50  0001 C CNN
+	1    4000 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 900  4250 900 
+$Comp
+L Device:Q_PMOS_DGS Q11
+U 1 1 5D9E537B
+P 4150 1450
+F 0 "Q11" H 4356 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 4356 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4350 1550 50  0001 C CNN
+F 3 "~" H 4150 1450 50  0001 C CNN
+	1    4150 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1350 4400 1250
+Wire Wire Line
+	3750 900  3800 900 
+Wire Wire Line
+	4000 1200 4000 1650
+Wire Wire Line
+	4350 1350 4400 1350
+Wire Wire Line
+	3750 1350 3950 1350
+Wire Wire Line
+	4000 1650 4150 1650
+$Comp
+L MRDT_Connectors:AndersonPP Conn4
+U 2 1 5D9E5388
+P 4550 1000
+F 0 "Conn4" H 4756 1387 60  0000 C CNN
+F 1 "AndersonPP" H 4756 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4400 450 60  0001 C CNN
+F 3 "" H 4400 450 60  0001 C CNN
+	2    4550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn4
+U 3 1 5D9E538F
+P 4550 1450
+F 0 "Conn4" H 4756 1837 60  0000 C CNN
+F 1 "AndersonPP" H 4756 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4400 900 60  0001 C CNN
+F 3 "" H 4400 900 60  0001 C CNN
+	3    4550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q4
+U 1 1 5D9E5396
+P 5200 1000
+F 0 "Q4" H 5406 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 5406 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 1100 50  0001 C CNN
+F 3 "~" H 5200 1000 50  0001 C CNN
+	1    5200 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 900  5450 900 
+$Comp
+L Device:Q_PMOS_DGS Q12
+U 1 1 5D9E539E
+P 5350 1450
+F 0 "Q12" H 5556 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 5556 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 1550 50  0001 C CNN
+F 3 "~" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 1350 5600 1250
+Wire Wire Line
+	4950 900  5000 900 
+Wire Wire Line
+	5200 1200 5200 1650
+Wire Wire Line
+	5550 1350 5600 1350
+Wire Wire Line
+	4950 1350 5150 1350
+Wire Wire Line
+	5200 1650 5350 1650
+$Comp
+L MRDT_Connectors:AndersonPP Conn5
+U 2 1 5D9E7599
+P 5850 1000
+F 0 "Conn5" H 6056 1387 60  0000 C CNN
+F 1 "AndersonPP" H 6056 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5700 450 60  0001 C CNN
+F 3 "" H 5700 450 60  0001 C CNN
+	2    5850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn5
+U 3 1 5D9E75A0
+P 5850 1450
+F 0 "Conn5" H 6056 1837 60  0000 C CNN
+F 1 "AndersonPP" H 6056 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5700 900 60  0001 C CNN
+F 3 "" H 5700 900 60  0001 C CNN
+	3    5850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q5
+U 1 1 5D9E75A7
+P 6500 1000
+F 0 "Q5" H 6706 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 6706 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6700 1100 50  0001 C CNN
+F 3 "~" H 6500 1000 50  0001 C CNN
+	1    6500 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 900  6750 900 
+$Comp
+L Device:Q_PMOS_DGS Q13
+U 1 1 5D9E75AF
+P 6650 1450
+F 0 "Q13" H 6856 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 6856 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 1550 50  0001 C CNN
+F 3 "~" H 6650 1450 50  0001 C CNN
+	1    6650 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 1350 6900 1250
+Wire Wire Line
+	6250 900  6300 900 
+Wire Wire Line
+	6500 1200 6500 1650
+Wire Wire Line
+	6850 1350 6900 1350
+Wire Wire Line
+	6250 1350 6450 1350
+Wire Wire Line
+	6500 1650 6650 1650
+$Comp
+L MRDT_Connectors:AndersonPP Conn6
+U 2 1 5D9E75BC
+P 7050 1000
+F 0 "Conn6" H 7256 1387 60  0000 C CNN
+F 1 "AndersonPP" H 7256 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6900 450 60  0001 C CNN
+F 3 "" H 6900 450 60  0001 C CNN
+	2    7050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn6
+U 3 1 5D9E75C3
+P 7050 1450
+F 0 "Conn6" H 7256 1837 60  0000 C CNN
+F 1 "AndersonPP" H 7256 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6900 900 60  0001 C CNN
+F 3 "" H 6900 900 60  0001 C CNN
+	3    7050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q6
+U 1 1 5D9E75CA
+P 7700 1000
+F 0 "Q6" H 7906 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 7906 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7900 1100 50  0001 C CNN
+F 3 "~" H 7700 1000 50  0001 C CNN
+	1    7700 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 900  7950 900 
+$Comp
+L Device:Q_PMOS_DGS Q14
+U 1 1 5D9E75D2
+P 7850 1450
+F 0 "Q14" H 8056 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 8056 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 1550 50  0001 C CNN
+F 3 "~" H 7850 1450 50  0001 C CNN
+	1    7850 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 1350 8100 1250
+Wire Wire Line
+	7450 900  7500 900 
+Wire Wire Line
+	7700 1200 7700 1650
+Wire Wire Line
+	8050 1350 8100 1350
+Wire Wire Line
+	7450 1350 7650 1350
+Wire Wire Line
+	7700 1650 7850 1650
+$Comp
+L MRDT_Connectors:AndersonPP Conn7
+U 2 1 5D9E75DF
+P 8300 1000
+F 0 "Conn7" H 8506 1387 60  0000 C CNN
+F 1 "AndersonPP" H 8506 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8150 450 60  0001 C CNN
+F 3 "" H 8150 450 60  0001 C CNN
+	2    8300 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn7
+U 3 1 5D9E75E6
+P 8300 1450
+F 0 "Conn7" H 8506 1837 60  0000 C CNN
+F 1 "AndersonPP" H 8506 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8150 900 60  0001 C CNN
+F 3 "" H 8150 900 60  0001 C CNN
+	3    8300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q7
+U 1 1 5D9E75ED
+P 8950 1000
+F 0 "Q7" H 9156 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 9156 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 1100 50  0001 C CNN
+F 3 "~" H 8950 1000 50  0001 C CNN
+	1    8950 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 900  9200 900 
+$Comp
+L Device:Q_PMOS_DGS Q15
+U 1 1 5D9E75F5
+P 9100 1450
+F 0 "Q15" H 9306 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 9306 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9300 1550 50  0001 C CNN
+F 3 "~" H 9100 1450 50  0001 C CNN
+	1    9100 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9350 1350 9350 1250
+Wire Wire Line
+	8700 900  8750 900 
+Wire Wire Line
+	8950 1200 8950 1650
+Wire Wire Line
+	9300 1350 9350 1350
+Wire Wire Line
+	8700 1350 8900 1350
+Wire Wire Line
+	8950 1650 9100 1650
+$Comp
+L MRDT_Connectors:AndersonPP Conn8
+U 2 1 5D9E7602
+P 9500 1000
+F 0 "Conn8" H 9706 1387 60  0000 C CNN
+F 1 "AndersonPP" H 9706 1281 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9350 450 60  0001 C CNN
+F 3 "" H 9350 450 60  0001 C CNN
+	2    9500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn8
+U 3 1 5D9E7609
+P 9500 1450
+F 0 "Conn8" H 9706 1837 60  0000 C CNN
+F 1 "AndersonPP" H 9706 1731 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9350 900 60  0001 C CNN
+F 3 "" H 9350 900 60  0001 C CNN
+	3    9500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q8
+U 1 1 5D9E7610
+P 10150 1000
+F 0 "Q8" H 10356 1046 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 10356 955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 1100 50  0001 C CNN
+F 3 "~" H 10150 1000 50  0001 C CNN
+	1    10150 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 900  10400 900 
+$Comp
+L Device:Q_PMOS_DGS Q16
+U 1 1 5D9E7618
+P 10300 1450
+F 0 "Q16" H 10506 1496 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 10506 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10500 1550 50  0001 C CNN
+F 3 "~" H 10300 1450 50  0001 C CNN
+	1    10300 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 1350 10550 1250
+Wire Wire Line
+	9900 900  9950 900 
+Wire Wire Line
+	10150 1200 10150 1650
+Wire Wire Line
+	10500 1350 10550 1350
+Wire Wire Line
+	9900 1350 10100 1350
+Wire Wire Line
+	10150 1650 10300 1650
+Wire Wire Line
+	1600 2000 1600 1650
+Wire Wire Line
+	1550 1650 1600 1650
+Connection ~ 1600 1650
+Wire Wire Line
+	1600 1650 1700 1650
+Wire Wire Line
+	2750 1900 2750 1650
+Connection ~ 2750 1650
+Wire Wire Line
+	3950 1850 3950 1650
+Wire Wire Line
+	3950 1650 4000 1650
+Connection ~ 4000 1650
+Wire Wire Line
+	5100 1750 5100 1650
+Wire Wire Line
+	5100 1650 5200 1650
+Connection ~ 5200 1650
+Wire Wire Line
+	6500 1650 6000 1650
+Connection ~ 6500 1650
+Wire Wire Line
+	6000 1650 6000 2100
+Wire Wire Line
+	7700 1750 7700 1650
+Wire Wire Line
+	6100 1750 7700 1750
+Connection ~ 7700 1650
+Wire Wire Line
+	8950 1800 8950 1650
+Wire Wire Line
+	6200 1800 8950 1800
+Connection ~ 8950 1650
+Wire Wire Line
+	10150 1850 10150 1650
+Wire Wire Line
+	6300 1850 10150 1850
+Connection ~ 10150 1650
+$Comp
+L Device:R R1
+U 1 1 5DA0775F
+P 10100 2350
+F 0 "R1" H 10170 2396 50  0000 L CNN
+F 1 "R" H 10170 2305 50  0000 L CNN
+F 2 "" V 10030 2350 50  0001 C CNN
+F 3 "~" H 10100 2350 50  0001 C CNN
+	1    10100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5DA0782C
+P 10100 2700
+F 0 "D1" V 10138 2583 50  0000 R CNN
+F 1 "LED" V 10047 2583 50  0000 R CNN
+F 2 "" H 10100 2700 50  0001 C CNN
+F 3 "~" H 10100 2700 50  0001 C CNN
+	1    10100 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 2500 10100 2550
+$Comp
+L power:GND #PWR01
+U 1 1 5DA0B4C4
+P 10100 2900
+F 0 "#PWR01" H 10100 2650 50  0001 C CNN
+F 1 "GND" H 10105 2727 50  0000 C CNN
+F 2 "" H 10100 2900 50  0001 C CNN
+F 3 "" H 10100 2900 50  0001 C CNN
+	1    10100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2900 10100 2850
+$Comp
+L Device:R R2
+U 1 1 5DA0F137
+P 10450 2350
+F 0 "R2" H 10520 2396 50  0000 L CNN
+F 1 "R" H 10520 2305 50  0000 L CNN
+F 2 "" V 10380 2350 50  0001 C CNN
+F 3 "~" H 10450 2350 50  0001 C CNN
+	1    10450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5DA0F13E
+P 10450 2700
+F 0 "D2" V 10488 2583 50  0000 R CNN
+F 1 "LED" V 10397 2583 50  0000 R CNN
+F 2 "" H 10450 2700 50  0001 C CNN
+F 3 "~" H 10450 2700 50  0001 C CNN
+	1    10450 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10450 2500 10450 2550
+$Comp
+L power:GND #PWR02
+U 1 1 5DA0F146
+P 10450 2900
+F 0 "#PWR02" H 10450 2650 50  0001 C CNN
+F 1 "GND" H 10455 2727 50  0000 C CNN
+F 2 "" H 10450 2900 50  0001 C CNN
+F 3 "" H 10450 2900 50  0001 C CNN
+	1    10450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 2900 10450 2850
+Wire Wire Line
+	10100 2200 10100 1900
+Wire Wire Line
+	10450 2200 10450 2000
+Wire Wire Line
+	10550 1250 9350 1250
+Connection ~ 3150 1250
+Wire Wire Line
+	3150 1250 1950 1250
+Connection ~ 4400 1250
+Wire Wire Line
+	4400 1250 3150 1250
+Connection ~ 5600 1250
+Wire Wire Line
+	5600 1250 4400 1250
+Connection ~ 6900 1250
+Wire Wire Line
+	6900 1250 5600 1250
+Connection ~ 8100 1250
+Wire Wire Line
+	8100 1250 6900 1250
+Connection ~ 9350 1250
+Wire Wire Line
+	9350 1250 8100 1250
+Wire Wire Line
+	1800 900  1800 600 
+Wire Wire Line
+	1800 600  3000 600 
+Wire Wire Line
+	3000 600  3000 900 
+Wire Wire Line
+	3000 600  4250 600 
+Wire Wire Line
+	4250 600  4250 900 
+Connection ~ 3000 600 
+Wire Wire Line
+	4250 600  5450 600 
+Wire Wire Line
+	5450 600  5450 900 
+Connection ~ 4250 600 
+Wire Wire Line
+	5450 600  6750 600 
+Wire Wire Line
+	6750 600  6750 900 
+Connection ~ 5450 600 
+Wire Wire Line
+	6750 600  7950 600 
+Wire Wire Line
+	7950 600  7950 900 
+Connection ~ 6750 600 
+Wire Wire Line
+	7950 600  9200 600 
+Wire Wire Line
+	9200 600  9200 900 
+Connection ~ 7950 600 
+Wire Wire Line
+	9200 600  10400 600 
+Wire Wire Line
+	10400 600  10400 900 
+Connection ~ 9200 600 
+$Comp
+L MRDT_Connectors:AndersonPP Conn10
+U 2 1 5DA46065
+P 950 3650
+F 0 "Conn10" H 1156 4037 60  0000 C CNN
+F 1 "AndersonPP" H 1156 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 800 3100 60  0001 C CNN
+F 3 "" H 800 3100 60  0001 C CNN
+	2    950  3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn10
+U 3 1 5DA4606C
+P 950 4100
+F 0 "Conn10" H 1156 4487 60  0000 C CNN
+F 1 "AndersonPP" H 1156 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 800 3550 60  0001 C CNN
+F 3 "" H 800 3550 60  0001 C CNN
+	3    950  4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn18
+U 1 1 5DA46073
+P 6600 4950
+F 0 "Conn18" H 6544 6147 60  0000 C CNN
+F 1 "Molex_SL_10" H 6544 6041 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 6600 5450 60  0001 C CNN
+F 3 "" H 6600 5450 60  0001 C CNN
+	1    6600 4950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q17
+U 1 1 5DA4607A
+P 1600 3650
+F 0 "Q17" H 1806 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 1806 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 3750 50  0001 C CNN
+F 3 "~" H 1600 3650 50  0001 C CNN
+	1    1600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 4650 5650 4650
+Wire Wire Line
+	5650 4650 5650 4750
+Wire Wire Line
+	2800 4550 5750 4550
+Wire Wire Line
+	5750 4550 5750 4750
+Wire Wire Line
+	4000 4500 5850 4500
+Wire Wire Line
+	5850 4500 5850 4750
+Wire Wire Line
+	5150 4400 5950 4400
+Wire Wire Line
+	5950 4400 5950 4750
+Wire Wire Line
+	6150 4750 6150 4400
+Wire Wire Line
+	6250 4750 6250 4450
+Wire Wire Line
+	6350 4750 6350 4500
+Wire Wire Line
+	6450 4750 6450 4550
+Wire Wire Line
+	6450 4550 10150 4550
+Wire Wire Line
+	6550 4750 6550 4650
+Wire Wire Line
+	6550 4650 10500 4650
+Wire Wire Line
+	1800 3550 1850 3550
+$Comp
+L Device:Q_PMOS_DGS Q25
+U 1 1 5DA46091
+P 1750 4100
+F 0 "Q25" H 1956 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 1956 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 4200 50  0001 C CNN
+F 3 "~" H 1750 4100 50  0001 C CNN
+	1    1750 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 4000 2000 3900
+Wire Wire Line
+	1350 3550 1400 3550
+Wire Wire Line
+	1600 3850 1600 4300
+Wire Wire Line
+	1950 4000 2000 4000
+Wire Wire Line
+	1350 4000 1550 4000
+$Comp
+L MRDT_Connectors:AndersonPP Conn11
+U 2 1 5DA4609D
+P 2150 3650
+F 0 "Conn11" H 2356 4037 60  0000 C CNN
+F 1 "AndersonPP" H 2356 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2000 3100 60  0001 C CNN
+F 3 "" H 2000 3100 60  0001 C CNN
+	2    2150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn11
+U 3 1 5DA460A4
+P 2150 4100
+F 0 "Conn11" H 2356 4487 60  0000 C CNN
+F 1 "AndersonPP" H 2356 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2000 3550 60  0001 C CNN
+F 3 "" H 2000 3550 60  0001 C CNN
+	3    2150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q18
+U 1 1 5DA460AB
+P 2800 3650
+F 0 "Q18" H 3006 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 3006 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 3750 50  0001 C CNN
+F 3 "~" H 2800 3650 50  0001 C CNN
+	1    2800 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 3550 3050 3550
+$Comp
+L Device:Q_PMOS_DGS Q26
+U 1 1 5DA460B3
+P 2950 4100
+F 0 "Q26" H 3156 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 3156 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3150 4200 50  0001 C CNN
+F 3 "~" H 2950 4100 50  0001 C CNN
+	1    2950 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4000 3200 3900
+Wire Wire Line
+	2550 3550 2600 3550
+Wire Wire Line
+	2800 3850 2800 4300
+Wire Wire Line
+	3150 4000 3200 4000
+Wire Wire Line
+	2550 4000 2750 4000
+Wire Wire Line
+	2800 4300 2950 4300
+$Comp
+L MRDT_Connectors:AndersonPP Conn12
+U 2 1 5DA460C0
+P 3400 3650
+F 0 "Conn12" H 3606 4037 60  0000 C CNN
+F 1 "AndersonPP" H 3606 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3250 3100 60  0001 C CNN
+F 3 "" H 3250 3100 60  0001 C CNN
+	2    3400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn12
+U 3 1 5DA460C7
+P 3400 4100
+F 0 "Conn12" H 3606 4487 60  0000 C CNN
+F 1 "AndersonPP" H 3606 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3250 3550 60  0001 C CNN
+F 3 "" H 3250 3550 60  0001 C CNN
+	3    3400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q19
+U 1 1 5DA460CE
+P 4050 3650
+F 0 "Q19" H 4256 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 4256 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 3750 50  0001 C CNN
+F 3 "~" H 4050 3650 50  0001 C CNN
+	1    4050 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 3550 4300 3550
+$Comp
+L Device:Q_PMOS_DGS Q27
+U 1 1 5DA460D6
+P 4200 4100
+F 0 "Q27" H 4406 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 4406 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 4200 50  0001 C CNN
+F 3 "~" H 4200 4100 50  0001 C CNN
+	1    4200 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 4000 4450 3900
+Wire Wire Line
+	3800 3550 3850 3550
+Wire Wire Line
+	4050 3850 4050 4300
+Wire Wire Line
+	4400 4000 4450 4000
+Wire Wire Line
+	3800 4000 4000 4000
+Wire Wire Line
+	4050 4300 4200 4300
+$Comp
+L MRDT_Connectors:AndersonPP Conn13
+U 2 1 5DA460E3
+P 4600 3650
+F 0 "Conn13" H 4806 4037 60  0000 C CNN
+F 1 "AndersonPP" H 4806 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4450 3100 60  0001 C CNN
+F 3 "" H 4450 3100 60  0001 C CNN
+	2    4600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn13
+U 3 1 5DA460EA
+P 4600 4100
+F 0 "Conn13" H 4806 4487 60  0000 C CNN
+F 1 "AndersonPP" H 4806 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4450 3550 60  0001 C CNN
+F 3 "" H 4450 3550 60  0001 C CNN
+	3    4600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q20
+U 1 1 5DA460F1
+P 5250 3650
+F 0 "Q20" H 5456 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 5456 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5450 3750 50  0001 C CNN
+F 3 "~" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 3550 5500 3550
+$Comp
+L Device:Q_PMOS_DGS Q28
+U 1 1 5DA460F9
+P 5400 4100
+F 0 "Q28" H 5606 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 5606 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5600 4200 50  0001 C CNN
+F 3 "~" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4000 5650 3900
+Wire Wire Line
+	5000 3550 5050 3550
+Wire Wire Line
+	5250 3850 5250 4300
+Wire Wire Line
+	5600 4000 5650 4000
+Wire Wire Line
+	5000 4000 5200 4000
+Wire Wire Line
+	5250 4300 5400 4300
+$Comp
+L MRDT_Connectors:AndersonPP Conn14
+U 2 1 5DA46106
+P 5900 3650
+F 0 "Conn14" H 6106 4037 60  0000 C CNN
+F 1 "AndersonPP" H 6106 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5750 3100 60  0001 C CNN
+F 3 "" H 5750 3100 60  0001 C CNN
+	2    5900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn14
+U 3 1 5DA4610D
+P 5900 4100
+F 0 "Conn14" H 6106 4487 60  0000 C CNN
+F 1 "AndersonPP" H 6106 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5750 3550 60  0001 C CNN
+F 3 "" H 5750 3550 60  0001 C CNN
+	3    5900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q21
+U 1 1 5DA46114
+P 6550 3650
+F 0 "Q21" H 6756 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 6756 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 3750 50  0001 C CNN
+F 3 "~" H 6550 3650 50  0001 C CNN
+	1    6550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 3550 6800 3550
+$Comp
+L Device:Q_PMOS_DGS Q29
+U 1 1 5DA4611C
+P 6700 4100
+F 0 "Q29" H 6906 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 6906 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 4200 50  0001 C CNN
+F 3 "~" H 6700 4100 50  0001 C CNN
+	1    6700 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 4000 6950 3900
+Wire Wire Line
+	6300 3550 6350 3550
+Wire Wire Line
+	6550 3850 6550 4300
+Wire Wire Line
+	6900 4000 6950 4000
+Wire Wire Line
+	6300 4000 6500 4000
+Wire Wire Line
+	6550 4300 6700 4300
+$Comp
+L MRDT_Connectors:AndersonPP Conn15
+U 2 1 5DA46129
+P 7100 3650
+F 0 "Conn15" H 7306 4037 60  0000 C CNN
+F 1 "AndersonPP" H 7306 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6950 3100 60  0001 C CNN
+F 3 "" H 6950 3100 60  0001 C CNN
+	2    7100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn15
+U 3 1 5DA46130
+P 7100 4100
+F 0 "Conn15" H 7306 4487 60  0000 C CNN
+F 1 "AndersonPP" H 7306 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6950 3550 60  0001 C CNN
+F 3 "" H 6950 3550 60  0001 C CNN
+	3    7100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q22
+U 1 1 5DA46137
+P 7750 3650
+F 0 "Q22" H 7956 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 7956 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 3750 50  0001 C CNN
+F 3 "~" H 7750 3650 50  0001 C CNN
+	1    7750 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 3550 8000 3550
+$Comp
+L Device:Q_PMOS_DGS Q30
+U 1 1 5DA4613F
+P 7900 4100
+F 0 "Q30" H 8106 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 8106 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 4200 50  0001 C CNN
+F 3 "~" H 7900 4100 50  0001 C CNN
+	1    7900 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 4000 8150 3900
+Wire Wire Line
+	7500 3550 7550 3550
+Wire Wire Line
+	7750 3850 7750 4300
+Wire Wire Line
+	8100 4000 8150 4000
+Wire Wire Line
+	7500 4000 7700 4000
+Wire Wire Line
+	7750 4300 7900 4300
+$Comp
+L MRDT_Connectors:AndersonPP Conn16
+U 2 1 5DA4614C
+P 8350 3650
+F 0 "Conn16" H 8556 4037 60  0000 C CNN
+F 1 "AndersonPP" H 8556 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8200 3100 60  0001 C CNN
+F 3 "" H 8200 3100 60  0001 C CNN
+	2    8350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn16
+U 3 1 5DA46153
+P 8350 4100
+F 0 "Conn16" H 8556 4487 60  0000 C CNN
+F 1 "AndersonPP" H 8556 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8200 3550 60  0001 C CNN
+F 3 "" H 8200 3550 60  0001 C CNN
+	3    8350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q23
+U 1 1 5DA4615A
+P 9000 3650
+F 0 "Q23" H 9206 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 9206 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9200 3750 50  0001 C CNN
+F 3 "~" H 9000 3650 50  0001 C CNN
+	1    9000 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 3550 9250 3550
+$Comp
+L Device:Q_PMOS_DGS Q31
+U 1 1 5DA46162
+P 9150 4100
+F 0 "Q31" H 9356 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 9356 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9350 4200 50  0001 C CNN
+F 3 "~" H 9150 4100 50  0001 C CNN
+	1    9150 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 4000 9400 3900
+Wire Wire Line
+	8750 3550 8800 3550
+Wire Wire Line
+	9000 3850 9000 4300
+Wire Wire Line
+	9350 4000 9400 4000
+Wire Wire Line
+	8750 4000 8950 4000
+Wire Wire Line
+	9000 4300 9150 4300
+$Comp
+L MRDT_Connectors:AndersonPP Conn17
+U 2 1 5DA4616F
+P 9550 3650
+F 0 "Conn17" H 9756 4037 60  0000 C CNN
+F 1 "AndersonPP" H 9756 3931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9400 3100 60  0001 C CNN
+F 3 "" H 9400 3100 60  0001 C CNN
+	2    9550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn17
+U 3 1 5DA46176
+P 9550 4100
+F 0 "Conn17" H 9756 4487 60  0000 C CNN
+F 1 "AndersonPP" H 9756 4381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9400 3550 60  0001 C CNN
+F 3 "" H 9400 3550 60  0001 C CNN
+	3    9550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q24
+U 1 1 5DA4617D
+P 10200 3650
+F 0 "Q24" H 10406 3696 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 10406 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10400 3750 50  0001 C CNN
+F 3 "~" H 10200 3650 50  0001 C CNN
+	1    10200 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 3550 10450 3550
+$Comp
+L Device:Q_PMOS_DGS Q32
+U 1 1 5DA46185
+P 10350 4100
+F 0 "Q32" H 10556 4146 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 10556 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10550 4200 50  0001 C CNN
+F 3 "~" H 10350 4100 50  0001 C CNN
+	1    10350 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10600 4000 10600 3900
+Wire Wire Line
+	9950 3550 10000 3550
+Wire Wire Line
+	10200 3850 10200 4300
+Wire Wire Line
+	10550 4000 10600 4000
+Wire Wire Line
+	9950 4000 10150 4000
+Wire Wire Line
+	10200 4300 10350 4300
+Wire Wire Line
+	1650 4650 1650 4300
+Wire Wire Line
+	1600 4300 1650 4300
+Connection ~ 1650 4300
+Wire Wire Line
+	1650 4300 1750 4300
+Wire Wire Line
+	2800 4550 2800 4300
+Connection ~ 2800 4300
+Wire Wire Line
+	4000 4500 4000 4300
+Wire Wire Line
+	4000 4300 4050 4300
+Connection ~ 4050 4300
+Wire Wire Line
+	5150 4400 5150 4300
+Wire Wire Line
+	5150 4300 5250 4300
+Connection ~ 5250 4300
+Wire Wire Line
+	6550 4300 6050 4300
+Connection ~ 6550 4300
+Wire Wire Line
+	6050 4300 6050 4750
+Wire Wire Line
+	7750 4400 7750 4300
+Wire Wire Line
+	6150 4400 7750 4400
+Connection ~ 7750 4300
+Wire Wire Line
+	9000 4450 9000 4300
+Wire Wire Line
+	6250 4450 9000 4450
+Connection ~ 9000 4300
+Wire Wire Line
+	10200 4500 10200 4300
+Wire Wire Line
+	6350 4500 10200 4500
+Connection ~ 10200 4300
+$Comp
+L Device:R R3
+U 1 1 5DA461AA
+P 10150 5000
+F 0 "R3" H 10220 5046 50  0000 L CNN
+F 1 "R" H 10220 4955 50  0000 L CNN
+F 2 "" V 10080 5000 50  0001 C CNN
+F 3 "~" H 10150 5000 50  0001 C CNN
+	1    10150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5DA461B1
+P 10150 5350
+F 0 "D3" V 10188 5233 50  0000 R CNN
+F 1 "LED" V 10097 5233 50  0000 R CNN
+F 2 "" H 10150 5350 50  0001 C CNN
+F 3 "~" H 10150 5350 50  0001 C CNN
+	1    10150 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10150 5150 10150 5200
+$Comp
+L power:GND #PWR03
+U 1 1 5DA461B9
+P 10150 5550
+F 0 "#PWR03" H 10150 5300 50  0001 C CNN
+F 1 "GND" H 10155 5377 50  0000 C CNN
+F 2 "" H 10150 5550 50  0001 C CNN
+F 3 "" H 10150 5550 50  0001 C CNN
+	1    10150 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 5550 10150 5500
+$Comp
+L Device:R R4
+U 1 1 5DA461C0
+P 10500 5000
+F 0 "R4" H 10570 5046 50  0000 L CNN
+F 1 "R" H 10570 4955 50  0000 L CNN
+F 2 "" V 10430 5000 50  0001 C CNN
+F 3 "~" H 10500 5000 50  0001 C CNN
+	1    10500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5DA461C7
+P 10500 5350
+F 0 "D4" V 10538 5233 50  0000 R CNN
+F 1 "LED" V 10447 5233 50  0000 R CNN
+F 2 "" H 10500 5350 50  0001 C CNN
+F 3 "~" H 10500 5350 50  0001 C CNN
+	1    10500 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 5150 10500 5200
+$Comp
+L power:GND #PWR04
+U 1 1 5DA461CF
+P 10500 5550
+F 0 "#PWR04" H 10500 5300 50  0001 C CNN
+F 1 "GND" H 10505 5377 50  0000 C CNN
+F 2 "" H 10500 5550 50  0001 C CNN
+F 3 "" H 10500 5550 50  0001 C CNN
+	1    10500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 5550 10500 5500
+Wire Wire Line
+	10150 4850 10150 4550
+Wire Wire Line
+	10500 4850 10500 4650
+Wire Wire Line
+	10600 3900 9400 3900
+Connection ~ 3200 3900
+Wire Wire Line
+	3200 3900 2000 3900
+Connection ~ 4450 3900
+Wire Wire Line
+	4450 3900 3200 3900
+Connection ~ 5650 3900
+Wire Wire Line
+	5650 3900 4450 3900
+Connection ~ 6950 3900
+Wire Wire Line
+	6950 3900 5650 3900
+Connection ~ 8150 3900
+Wire Wire Line
+	8150 3900 6950 3900
+Connection ~ 9400 3900
+Wire Wire Line
+	9400 3900 8150 3900
+Wire Wire Line
+	1850 3550 1850 3250
+Wire Wire Line
+	1850 3250 3050 3250
+Wire Wire Line
+	3050 3250 3050 3550
+Wire Wire Line
+	3050 3250 4300 3250
+Wire Wire Line
+	4300 3250 4300 3550
+Connection ~ 3050 3250
+Wire Wire Line
+	4300 3250 5500 3250
+Wire Wire Line
+	5500 3250 5500 3550
+Connection ~ 4300 3250
+Wire Wire Line
+	5500 3250 6800 3250
+Wire Wire Line
+	6800 3250 6800 3550
+Connection ~ 5500 3250
+Wire Wire Line
+	6800 3250 8000 3250
+Wire Wire Line
+	8000 3250 8000 3550
+Connection ~ 6800 3250
+Wire Wire Line
+	8000 3250 9250 3250
+Wire Wire Line
+	9250 3250 9250 3550
+Connection ~ 8000 3250
+Wire Wire Line
+	9250 3250 10450 3250
+Wire Wire Line
+	10450 3250 10450 3550
+Connection ~ 9250 3250
+Wire Wire Line
+	10400 600  10800 600 
+Wire Wire Line
+	10800 600  10800 3250
+Wire Wire Line
+	10800 3250 10450 3250
+Connection ~ 10400 600 
+Connection ~ 10450 3250
+Wire Wire Line
+	10550 1250 11050 1250
+Wire Wire Line
+	11050 1250 11050 3900
+Wire Wire Line
+	11050 3900 10600 3900
+Connection ~ 10550 1250
+Connection ~ 10600 3900
+$Comp
+L MRDT_Connectors:AndersonPP Conn19
+U 3 1 5DA7FA5D
+P 11450 1150
+F 0 "Conn19" H 11423 1197 60  0000 R CNN
+F 1 "AndersonPP" H 11423 1303 60  0000 R CNN
+F 2 "" H 11300 600 60  0001 C CNN
+F 3 "" H 11300 600 60  0001 C CNN
+	3    11450 1150
+	-1   0    0    1   
+$EndComp
+Connection ~ 11050 1250
+$Comp
+L MRDT_Connectors:AndersonPP Conn19
+U 2 1 5DA7FDA8
+P 11200 500
+F 0 "Conn19" H 11173 547 60  0000 R CNN
+F 1 "AndersonPP" H 11173 653 60  0000 R CNN
+F 2 "" H 11050 -50 60  0001 C CNN
+F 3 "" H 11050 -50 60  0001 C CNN
+	2    11200 500 
+	-1   0    0    1   
+$EndComp
+Connection ~ 10800 600 
+$EndSCHEMATC
