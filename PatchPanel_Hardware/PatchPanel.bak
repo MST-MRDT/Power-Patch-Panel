@@ -75,7 +75,7 @@ U 1 1 5DA26A20
 P 700 6050
 F 0 "Conn1" H 906 6437 60  0000 C CNN
 F 1 "AndersonPP" H 906 6331 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 550 5500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 550 5500 60  0001 C CNN
 F 3 "" H 550 5500 60  0001 C CNN
 	1    700  6050
 	1    0    0    -1  
@@ -319,7 +319,7 @@ Wire Wire Line
 	3500 7400 3600 7400
 Connection ~ 3600 7400
 Wire Wire Line
-	3600 7400 3600 6900
+	3600 7400 3600 7250
 Connection ~ 2000 7650
 Wire Wire Line
 	2000 7650 2800 7650
@@ -451,7 +451,7 @@ U 3 1 5DA7FA5D
 P 10700 850
 F 0 "Conn1" V 10650 1150 60  0000 R CNN
 F 1 "AndersonPP" V 10550 1250 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10550 300 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 10550 300 60  0001 C CNN
 F 3 "" H 10550 300 60  0001 C CNN
 	3    10700 850 
 	0    1    1    0   
@@ -462,7 +462,7 @@ U 2 1 5DA7FDA8
 P 10450 600
 F 0 "Conn1" V 10350 700 60  0000 R CNN
 F 1 "AndersonPP" V 10423 753 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10300 50  60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 10300 50  60  0001 C CNN
 F 3 "" H 10300 50  60  0001 C CNN
 	2    10450 600 
 	0    1    1    0   
@@ -2120,7 +2120,7 @@ Wire Wire Line
 Wire Wire Line
 	11400 2450 11300 2450
 Wire Wire Line
-	11300 1850 11550 1850
+	11300 1850 11350 1850
 Wire Wire Line
 	11950 1850 12100 1850
 Wire Wire Line
@@ -2242,8 +2242,6 @@ Connection ~ 9150 1000
 Wire Wire Line
 	9150 1000 10550 1000
 Wire Wire Line
-	11350 1800 11350 1000
-Wire Wire Line
 	11350 1000 10550 1000
 Wire Wire Line
 	50   3700 50   4300
@@ -2254,4 +2252,23 @@ Wire Wire Line
 	-100 3700 50   3700
 Wire Wire Line
 	8900 1250 8900 2750
+Wire Wire Line
+	11350 1000 11350 1850
+Connection ~ 11350 1850
+Wire Wire Line
+	11350 1850 11550 1850
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 1 1 5DD8D086
+P 4000 7150
+F 0 "Conn1" H 3973 7197 60  0000 R CNN
+F 1 "AndersonPP" H 3973 7303 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3850 6600 60  0001 C CNN
+F 3 "" H 3850 6600 60  0001 C CNN
+	1    4000 7150
+	-1   0    0    1   
+$EndComp
+Connection ~ 3600 7250
+Wire Wire Line
+	3600 7250 3600 6900
 $EndSCHEMATC
