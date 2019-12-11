@@ -20,7 +20,7 @@ U 1 1 5D998B5F
 P 7700 5100
 F 0 "Conn19" H 7644 6297 60  0000 C CNN
 F 1 "Molex_SL_10" H 7644 6191 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 7700 5600 60  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 7700 5600 60  0001 C CNN
 F 3 "" H 7700 5600 60  0001 C CNN
 	1    7700 5100
 	0    -1   1    0   
@@ -49,7 +49,7 @@ U 1 1 5DA26A20
 P 1850 9150
 F 0 "Conn1" H 2056 9537 60  0000 C CNN
 F 1 "AndersonPP" H 2056 9431 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1700 8600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1700 8600 60  0001 C CNN
 F 3 "" H 1700 8600 60  0001 C CNN
 	1    1850 9150
 	1    0    0    -1  
@@ -646,7 +646,7 @@ U 2 1 5DBCBDA7
 P 2300 2000
 F 0 "Conn1" H 2450 2250 60  0000 C CNN
 F 1 "AndersonPP" H 2400 1950 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 2150 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2150 1450 60  0001 C CNN
 F 3 "" H 2150 1450 60  0001 C CNN
 	2    2300 2000
 	-1   0    0    1   
@@ -657,7 +657,7 @@ U 3 1 5DBCBDAE
 P 1900 3050
 F 0 "Conn1" H 2000 3300 60  0000 C CNN
 F 1 "AndersonPP" H 2000 3000 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1750 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1750 2500 60  0001 C CNN
 F 3 "" H 1750 2500 60  0001 C CNN
 	3    1900 3050
 	-1   0    0    1   
