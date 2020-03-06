@@ -2470,13 +2470,13 @@ Text GLabel 7200 6900 1    50   Output ~ 0
 PB3
 Text GLabel 7400 6900 1    50   Output ~ 0
 PB4
-Text GLabel 7300 6900 1    50   Output ~ 0
-PB5
-Text GLabel 7100 6900 1    50   Output ~ 0
-PB6
 Text GLabel 6700 6900 1    50   Output ~ 0
-PB8
+PB5
 Text GLabel 6900 6900 1    50   Output ~ 0
+PB6
+Text GLabel 7300 6900 1    50   Output ~ 0
+PB8
+Text GLabel 7100 6900 1    50   Output ~ 0
 PB7
 Wire Wire Line
 	3650 4050 3850 4050
